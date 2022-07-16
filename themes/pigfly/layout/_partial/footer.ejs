@@ -80,8 +80,7 @@
             <% } %>
             <br>
             <% if (theme.icp.enable) { %>
-                <span id="icp"><img src="https://files.islu.cn/detail/icp.png" style="vertical-align: text-bottom;"/>
-                <a href="<%- url_for(theme.icp.url) %>" target="_blank"><%= theme.icp.text %></a>
+                <span id="icp"><a href="<%- url_for(theme.icp.url) %>" target="_blank"><%= theme.icp.text %></a>
             </span>
             <% } %>
         </div>

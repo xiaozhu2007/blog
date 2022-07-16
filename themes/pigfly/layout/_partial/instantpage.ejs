@@ -13,11 +13,11 @@
     }
 
     if (isMobile() == false) {
-        if (document.cookie.indexOf("a=islu") == -1) {
+        if (document.cookie.indexOf("a=pig") == -1) {
             /*day为多少天内打开不再进行引导*/
             var day = 1;
             var t = new Date(new Date().getTime() + 1000 * 60 * 60 * 24 * day);
-            document.cookie = "a=islu; expires=" + t.toGMTString();
+            document.cookie = "a=pig; expires=" + t.toGMTString();
 
 
             var enjoyhint_instance = new EnjoyHint({});
