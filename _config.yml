@@ -19,14 +19,14 @@ title: Pig2333's Blog   #这是网站标题
 subtitle: Welcome to Pig2333's Blog    #这是网站副标题subtitle
 # 下面两个description,keywords，需要填上，如果想让搜索引擎收录，这个做SEO优化必不可忽视的两个属性
 description: Pig2333's blog是一个记录生活,分享知识的个人博客。主要记录生活的点点滴滴,分享学习上的经验知识,以求在茫茫人海中留下些许足迹。  #网站描述
-keywords: [小猪,Java,web网站,经验分享,hexo,个人博客,生活记录]  #网站的关键词
+keywords: [Java,web网站,经验分享,hexo,个人博客,生活记录]  #网站的关键词
 author: Pig2333  #作者，文章版权所显示的
 language: zh-CN  #网站语言，不填写，默认为英文
 timezone: #时区，可以不填写
 
 # URL
 ## 在这里设置你的网站url。例如，如果你使用GitHub页面，设置url为“https://username.github.io/project”
-url: https://xzblog.vercel.app/
+url: https://xiaozhu2007.netlify.app/
 permalink: posts/:title.html
 permalink_defaults:
 pretty_urls:
@@ -39,7 +39,7 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-code_dir: downloads/code
+code_dir: code
 i18n_dir: :lang
 
 # 忽略文件的构建(此处文件不会因为构建而消失)
@@ -60,7 +60,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 
-# 高亮《已经帮你配置好了》
+# 高亮(已经帮你配置好了)
 highlight:
   enable: false
   line_number: true
@@ -91,7 +91,7 @@ meta_generator: true
 
 # 时间日期格式
 # Hexo使用Moment.js来解析和显示日期
-# 可以自定义时间格式《建议不要改》
+# 可以自定义时间格式
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD # 默认日期格式 年-月-日
 time_format: HH:mm:ss # 默认时间格式 时:分:秒
@@ -117,7 +117,7 @@ theme: pigfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: git@gitlab.com:xiaozhu2007/hexo.git # 此处为共有仓库名
+    repo: git@github.com:xiaozhu2007/blog.git # 此处为共有仓库名
     branch: master
 #  - type: baidu_url_submitter # 若开启百度主动提交则可取消注释
 
@@ -137,7 +137,7 @@ githubEmojis:
   customEmojis:
 
 #hexo-neat 优化提速插件（去掉HTML、css、js的blank字符） npm install hexo-neat --save
-neat_enable: false ### 无特殊情况不要开启 **拖慢速度**
+neat_enable: false ### 无特殊情况不要开启 **拖慢构建速度**
 neat_html:
   enable: true
   exclude:
