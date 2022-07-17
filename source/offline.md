@@ -1,6 +1,5 @@
 ---
 title: Oops! 您处于离线状态
-banner_img: 'https://npm.elemecdn.com/chenyfan-os@0.0.0-r6'
 ---
 
 # 此页面无法打开
