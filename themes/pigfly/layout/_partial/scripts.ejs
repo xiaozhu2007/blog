@@ -1,0 +1,39 @@
+<script>
+    function loadScript(src, callback) {
+        var script = document.createElement('script'),
+            head = document.getElementsByTagName('head')[0];
+        script.type = 'text/javascript';
+        script.charset = 'UTF-8';
+        script.src = src;
+        if (script.addEventListener) {
+            script.addEventListener('load', function () {
+                callback();
+            }, false);
+        } else if (script.attachEvent) {
+            script.attachEvent('onreadystatechange', function () {
+                var target = window.event.srcElement;
+                if (target.readyState == 'loaded') {
+                    callback();
+                }
+            });
+        }
+        head.appendChild(script);
+    }
+
+    document.onreadystatechange = function () {
+        if (document.readyState == "complete") {
+            //loadScript('/hpp/api/getblogeractive', function () { });
+            loadScript('https://npm.elemecdn.com/notyf@3.10.0/notyf.min.js', function () {
+                // Create an instance of Notyf
+                var notyf = new Notyf();
+                // Display a success notification
+                notyf.success({
+                    message: '已连接到服务器!',
+                    duration: 5000,
+                    dismissible: true,
+                    icon: true
+                });
+            });
+        }
+    }
+</script>
