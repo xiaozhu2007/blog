@@ -1,14 +1,54 @@
-# Pig2333的博客 源码
+<h1 align="center">Pig2333's Blog</h1>
+<div align="center">
 
-## How To Use
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78c67981-3f26-4c95-bdc8-c311ed58fd1e/deploy-status)](https://app.netlify.com/sites/xiaozhu2007/deploys)
 
-### 安装hexo框架
-  `npm install hexo-cli -g`
-  
-### 部署博客源码
-1. 下载源码
-2. 运行`npm i`自动安装所需依赖
-3. 更改个人信息及所需配置
-4. 更改`_config.yml` 中 `deploy` 仓库地址为**自己**的仓库地址
-5. 运行`hexo cl&&hexo g&&hexo d`
-6. 成功！祝你好运
+[![Made with ❤](https://flat.badgen.net/badge/made%20with/%e2%9d%a4/ff69b4)](blog)
+
+</div>
+
+<h2 align="center"><a href="https://xiaozhu2007.netlify.app/friends/">友链申请</a></h2>
+<p align="center">
+  <a href="https://github.com/xiaozhu2007">
+    <img src="https://ghchart.rshah.org/xiaozhu2007" alt="xiaozhu2007's Github chart" />
+  </a>
+</p>
+<div align="center">欢迎添加友情链接!不过您可能需要注意以下几点:</div>
+	
++ 0.首先确保站点内容不违反中国大陆法律
+
++ 1.存活时间不小于**1个月**.
+
++ 2.确定不会随随便便删库跑路.
+
++ 3.时间达到30天无法正常访问的将会被删除, 解决方法参见第8条.
+
++ 4.免费顶级域名看情况接受，且对\*.netlify.app和\*.github.io给予支持.
+    
++ 5.确保站点可以以HTTPS访问,允许不强制.
+
++ 6.拥有尽可能多的原创内容,越多越好.
+
++ 7.如果因特殊原因而更换地址，请提出Issues!
+
+添加方式：
+
+进入[Repo](https://github.com/xiaozhu2007/blog), 直接修改(友链配置文件)<https://github.com/xiaozhu2007/blog/blob/master/themes/fluid/_config.yml> 按照示例规则添加友链.
+
+点击PullRequest，向本仓库发起PullRequest。
+
+## 预览和参考
+
+本站经过**定制**，加入了某些你不需要的东西，具体如下：
+```
+ServiceWorker(https://xiaozhu2007.netlify.app/sw.js)
+进度条
+应用支持
+百度统计(https://tongji.baidu.com/)
+Pig广告(https://xiaozhu2007.netlify.app/about/ads)
+友链截图(https://github.com/xiaozhu2007/ScreenShot)
+```
+这些东西需要经过比较复杂的配置，不能直接复制粘贴来使用，所以你可以预览和参考，但是如果想自己建造博客，请你最好还是安装[pigfly](pigfly)主题
+
+[blog]: https://xiaozhu2007.netlify.app/
+[pigfly]: https://github.com/xiaozhu2007/hexo-theme-pigfly
