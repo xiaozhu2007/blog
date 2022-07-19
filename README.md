@@ -2,7 +2,6 @@
 <div align="center">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/78c67981-3f26-4c95-bdc8-c311ed58fd1e/deploy-status)](https://app.netlify.com/sites/xiaozhu2007/deploys)
-
 [![Made with ❤](https://flat.badgen.net/badge/made%20with/%e2%9d%a4/ff69b4)](blog)
 
 </div>
@@ -23,7 +22,7 @@
 
 + 3.时间达到30天无法正常访问的将会被删除, 解决方法参见第8条.
 
-+ 4.免费顶级域名看情况接受，且对\*.netlify.app和\*.github.io给予支持.
++ 4.对\*.netlify.app、\*.gitlab.io、\*.coding.me、\*.github.io和免费顶级域名给予支持.
     
 + 5.确保站点可以以HTTPS访问,允许不强制.
 
