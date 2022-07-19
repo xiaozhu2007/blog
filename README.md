@@ -13,7 +13,7 @@
     <img src="https://ghchart.rshah.org/xiaozhu2007" alt="xiaozhu2007's Github chart" />
   </a>
 </p>
-<div align="center">欢迎添加友情链接!不过您可能需要注意以下几点:</div>
+<div align="center">欢迎添加友情链接!不过您需要注意以下几点:</div>
 	
 + 0.首先确保站点内容不违反中国大陆法律
 
@@ -33,7 +33,7 @@
 
 添加方式：
 
-进入[Repo](https://github.com/xiaozhu2007/blog), 直接修改(友链配置文件)<https://github.com/xiaozhu2007/blog/blob/master/themes/fluid/_config.yml> 按照示例规则添加友链.
+进入[Repo](https://github.com/xiaozhu2007/blog), 直接修改(友链配置文件)<https://github.com/xiaozhu2007/blog/blob/master/source/_data/friends.json> 按照示例规则添加友链.
 
 点击PullRequest，向本仓库发起PullRequest。
 
@@ -45,10 +45,10 @@ ServiceWorker(https://xiaozhu2007.netlify.app/sw.js)
 进度条
 应用支持
 百度统计(https://tongji.baidu.com/)
-Pig广告(https://xiaozhu2007.netlify.app/about/ads)
+广告(https://xiaozhu2007.netlify.app/about/ads)
 友链截图(https://github.com/xiaozhu2007/ScreenShot)
 ```
-这些东西需要经过比较复杂的配置，不能直接复制粘贴来使用，所以你可以预览和参考，但是如果想自己建造博客，请你最好还是安装[pigfly](pigfly)主题
+这些东西需要经过比较复杂的配置，**不能**直接复制粘贴来使用，所以你可以预览和参考，但是如果想自己建造博客，请你最好还是安装[pigfly](pigfly)主题
 
 [blog]: https://xiaozhu2007.netlify.app/
 [pigfly]: https://github.com/xiaozhu2007/hexo-theme-pigfly
