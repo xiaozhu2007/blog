@@ -22,7 +22,7 @@
 
 + 3.时间达到30天无法正常访问的将会被删除, 解决方法参见第8条.
 
-+ 4.对\*.netlify.app、\*.gitlab.io、\*.coding.me、\*.github.io和免费顶级域名给予支持.
++ 4.我们对免费二级域名(如：\*.netlify.app、\*.gitlab.io、\*.coding.me、\*.github.io等)和免费顶级域名给予支持.
     
 + 5.确保站点可以以HTTPS访问,允许不强制.
 
