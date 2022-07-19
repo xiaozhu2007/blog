@@ -6,7 +6,7 @@
 
 </div>
 
-<h2 align="center"><a href="https://xiaozhu2007.netlify.app/friends/">友链申请</a></h2>
+<h2 align="center"><a href="https://xiaozhu2007.netlify.app/friends/">查看网站</a></h2>
 <p align="center">
   <a href="https://github.com/xiaozhu2007">
     <img src="https://ghchart.rshah.org/xiaozhu2007" alt="xiaozhu2007's Github chart" />
@@ -14,29 +14,30 @@
 </p>
 <div align="center">欢迎添加友情链接!不过您需要注意以下几点:</div>
 	
-+ 0.首先确保站点内容不违反中国大陆法律
++ 0.确保站点内容不违反中国大陆法律
 
-+ 1.存活时间不小于**1个月**.
++ 1.建站时间不小于**1个月**.
 
-+ 2.确定不会随随便便删库跑路.
++ 2.不会随随便便跑路.
 
-+ 3.时间达到30天无法正常访问的将会被删除, 解决方法参见第8条.
++ 3.时间达到60天无法正常访问的将会被删除, 解决方法参见第8条.
 
 + 4.我们对免费二级域名(如：\*.netlify.app、\*.gitlab.io、\*.coding.me、\*.github.io等)和免费顶级域名给予支持.
-    
+
 + 5.确保站点可以以HTTPS访问,允许不强制.
 
 + 6.拥有尽可能多的原创内容,越多越好.
 
 + 7.如果因特殊原因而更换地址，请提出Issues!
 
+---
 添加方式：
 
 进入[Repo](https://github.com/xiaozhu2007/blog), 直接修改(友链配置文件)<https://github.com/xiaozhu2007/blog/blob/master/source/_data/friends.json> 按照示例规则添加友链.
 
-点击PullRequest，向本仓库发起PullRequest。
+点击PullRequest，向仓库发起PullRequest
 
-## 预览和参考
+## 参考
 
 本站经过**定制**，加入了某些你不需要的东西，具体如下：
 ```
