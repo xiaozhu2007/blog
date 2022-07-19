@@ -56,7 +56,7 @@ menu:
       - name: 友情链接
         url: /friends
         icon: fas fa-address-book
-      - name: 交换友链
+      - name: 留言板
         url: /contact
         icon: fas fa-comments
 
@@ -88,12 +88,12 @@ dream:
   enable: true
   showTitle: true
   title:  💪 人生格言
-  text: 你所浪费的今天是昨天死去的人奢望的明天，你所厌恶的现在，是未来的你回不到的曾经！
+  text: 我们都得经历一段努力闭嘴不抱怨的时光，才能熠熠生辉，才能去更酷的地方，成为更酷的人。
 
 # 加载动画
 loading:
-  enable: false
-  time: 500 # 强制开启loading动画的时间 1000=1s,默认为0.5s
+  enable: true
+  time: 100 # 强制开启loading动画的时间 1000=1s,默认为0.5s
 
 # 首页引导.
 instantpage:
@@ -178,8 +178,8 @@ socialLink:
   twitter: # https://twitter.com/xxx
   qq: 3356136957
   weibo: # https://weibo.com/xxx
-  zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  zhihu: https://www.zhihu.com/tian-li-pa-99
+  rss: true # true / false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -196,7 +196,7 @@ code:
   lang: true # 代码块是否显示名称
   copy: true # 代码块是否可复制
   shrink: false # 代码块是否可以收缩 true可能会导致复制信息未格式化
-  break: true # 代码是否折行
+  break: false # 代码是否折行
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
@@ -232,7 +232,7 @@ postInfo:
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
   readCount: false # 文章阅读次数
-  timeLag: true # 开启发布或更新距今时间间隔
+  timeLag: false # 开启发布或更新距今时间间隔
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -244,7 +244,7 @@ clicklove:
 profile:
   avatar: /medias/avatar.jpg # 头像
   career: 🎓安全爱好者 # 职业
-  introduction: 🔔 迷茫的原因往往只有一个，那就是在本该拼命去努力的年纪，想得太多，做得太少。 # 介绍
+  introduction: 🔔 世界那么大，我先去看看。 # 介绍
 
 
 # config my projects informations in about page.
@@ -267,19 +267,19 @@ mySkills:
   data:
     C:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 75%
+      percent: 15%
     JavaScript:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 50%
+      percent: 90%
     HTML5:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
+      percent: 90%
     CSS:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 50%
+      percent: 20%
     SQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 60%
+      percent: 40%
     PHP:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 65%
