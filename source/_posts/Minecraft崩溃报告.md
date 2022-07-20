@@ -1,5 +1,6 @@
 ---
 title: 记一次对 Minecraft 的崩溃分析
+img: '/medias/featureimages/5.jpg'
 icon: app
 date: 2021-11-25
 category: 学习

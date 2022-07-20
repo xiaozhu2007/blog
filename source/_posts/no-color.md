@@ -1,5 +1,6 @@
 ---
 title: 修改网站为(黑白)灰色代码
+img: '/medias/featureimages/5.jpg'
 date: 2020-06-14 19:30:53
 ---
 

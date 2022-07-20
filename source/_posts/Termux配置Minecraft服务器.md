@@ -1,5 +1,6 @@
 ---
 title: Termux安装Java并配置Minecraft服务器
+img: '/medias/featureimages/6.jpg'
 icon: app
 date: 2021-08-27
 category: 软件

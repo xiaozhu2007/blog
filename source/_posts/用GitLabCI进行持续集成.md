@@ -1,5 +1,6 @@
 ---
 title: 用 GitLab CI 进行持续集成
+img: '/medias/featureimages/3.jpg'
 icon: app
 date: 2021-08-27
 category: 工具

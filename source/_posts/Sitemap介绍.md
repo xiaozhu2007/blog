@@ -1,5 +1,6 @@
 ---
 title: Sitemap 介绍
+img: '/medias/featureimages/8.jpg'
 icon: app
 date: 2022-05-29
 category: 学习
@@ -21,8 +22,5 @@ Sitemaps 是站点管理员向搜索引擎爬虫公布站点可被抓取页面�
 
 Google 引入了 Google 网站地图使得网页开发者可以发布整个站点的链接列表。网站地图文件可以被用来指引网络蜘蛛如何找到这类页面。
 
-::: tip
 
 本站有一个Sitemap范例（自动生成），你可以在[这里](/sitemap.xml)看看
-
-:::
