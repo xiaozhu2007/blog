@@ -120,7 +120,7 @@ plugin:
 feed:
   type: atom
   path: atom.xml
-  limit: 20
+  limit: 50
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
