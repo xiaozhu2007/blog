@@ -10,6 +10,6 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   buildDir = "public"
-  filePath = "/sitemaps.xml"
+  filePath = "sitemaps.xml"
   changeFreq = "daily"
   priority = 0.6
