@@ -4,3 +4,12 @@
   # optional, deploy the lighthouse report to a path under your site
   [plugins.inputs]
     output_path = "reports/lighthouse.html"
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  filePath = "/sitemaps.xml"
+  changeFreq = "daily"
+  priority = 0.6
