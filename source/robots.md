@@ -1,3 +1,15 @@
+---
+title: 请立即停止你的所作所为
+author: PigWaf
+img: '/medias/featureimages/20.jpg'
+top: false
+toc: false
+mathjax: false
+essay: false
+date: 1970-01-01 23:33:33
+summary: 你的危险行为被WAF拦截了
+---
+
 # 请立即停止你的所作所为
 
 你的危险行为被WAF拦截了，请注意您的危险行为，提醒一下，非法渗透是违法的！ 如果我们互不认识的话，你来渗透我们(还有HelloTools其他成员)的小站，我们(还有HelloTools其他成员)会看日志顺网线来抓你的哦，什么你要直接 `rm -rf /*`，别担心，我快照5地备份，我就不信你能全删了！
