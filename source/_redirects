@@ -3,7 +3,9 @@
 # Redirects from what the browser requests to what we serve
 # No WordPress. Anti SB
 /home                /
-/wp-admin/index.php  /
-/wp-login.php        /
-/blog                /
+/wp-admin/index.php  /robots       400
+/wp-includes/*       /robots       400
+/wp-content/*        /robots       400
+/wp-login.php        /robots       400
+/blog                /robots       400
 /sitemap.html        /sitemap.xml

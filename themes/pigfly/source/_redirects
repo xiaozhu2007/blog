@@ -1,9 +1,0 @@
-/_api/*  https://api.pig2333.workers.dev/:splat  200
-
-# Redirects from what the browser requests to what we serve
-# No WordPress. Anti SB
-/home                /
-/wp-admin/index.php  /
-/wp-login.php        /
-/blog                /
-/sitemap.html        /sitemap.xml
