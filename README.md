@@ -16,7 +16,7 @@
 	
 + 0.确保站点内容不违反中国大陆法律
 
-+ 1.建站时间不小于**1个月**.
++ 1.建站时间不小于**3个月**.
 
 + 2.不会随随便便跑路.
 
@@ -33,9 +33,9 @@
 ---
 添加方式：
 
-进入[Repo](https://github.com/xiaozhu2007/blog), 直接修改(友链配置文件)<https://github.com/xiaozhu2007/blog/blob/master/source/_data/friends.json> 按照示例规则添加友链.
+* 进入[Repo](https://github.com/xiaozhu2007/blog), 直接修改(友链配置文件)<https://github.com/xiaozhu2007/blog/blob/master/source/_data/friends.json> 按照示例规则添加友链.
 
-点击PullRequest，向仓库发起PullRequest
+* 点击PullRequest，向仓库发起PullRequest
 
 ## 参考
 
