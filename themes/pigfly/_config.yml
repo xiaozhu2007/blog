@@ -92,12 +92,12 @@ dream:
 
 # 加载动画
 loading:
-  enable: true
+  enable: false
   time: 100 # 强制开启loading动画的时间 1000=1s,默认为0.5s
 
 # 首页引导.
 instantpage:
-  enable: true
+  enable: false
 
 # 谷歌广告联盟
 guanggao:
@@ -178,7 +178,7 @@ socialLink:
   twitter: # https://twitter.com/xxx
   qq: 3356136957
   weibo: # https://weibo.com/xxx
-  zhihu: https://www.zhihu.com/tian-li-pa-99
+  zhihu: https://www.zhihu.com/u/tian-li-pa-99
   rss: true # true / false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
@@ -209,7 +209,7 @@ reward:
 copyright:
   enable: true
   minCharNumber: 200 # 至少复制多少个字符就追加版权信息.
-  description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
+  description: 本文章著作权归作者Pig2333所有，任何形式的转载都请注明出处。
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
 # Considering that the mathjax loading is time consuming,
@@ -227,7 +227,7 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: false # 更新日期
+  update: true # 更新日期
   wordCount: true # 文章字数统计
   totalCount: true # 站点总文章字数
   min2read: true # 文章阅读时长
@@ -504,7 +504,7 @@ ribbon_dynamic:
 # 支持顺序，可选项目为twitter, facebook, google, qq, qzone, wechat, weibo, douban, linkedin.
 sharejs:
   enable: true
-  sites: qq,wechat,qzone,weibo
+  sites: qq,wechat,qzone
 
 # addthis文章分享模块.
 addthis:
