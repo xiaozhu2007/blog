@@ -371,11 +371,15 @@ googleAnalytics:
   enable: false
   id:
 
+daoVoice:
+  enable: false
+  id: b40915e3
+
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: 287e8d26ceeacf422d27782c47406ccd
 
 # 百度搜索资源平台提交链接
 ## 此处开启要配置config.yml中的baidu_url_submit和deploy
