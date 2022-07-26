@@ -1,5 +1,5 @@
 /_api/*  https://api.pig2333.workers.dev/:splat  200
-/_proxy/*  https://index.pig2333.workers.dev/:splat  200
+/_gp/*  https://git.pig2333.workers.dev/:splat  200
 
 # No WordPress.
 /wp-admin/index.php  /robots       400
@@ -8,11 +8,12 @@
 /wp-login.php        /robots       400
 # Anti script kiddies.
 /phpinfo.php             /robots       400
+/shell.php               /robots       400
 /index.php               /robots       400
 /zb_system/*             /robots       400
 /zb_user/*               /robots       400
 /admin                   /robots       400
-/rss.xml                 /robots       400
+#/rss.xml                 /robots       400
 /wp-admin/login.php      /robots       400
 
 # For search engines
