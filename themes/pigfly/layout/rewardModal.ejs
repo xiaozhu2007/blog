@@ -36,7 +36,7 @@
                     <div class="label" style="color: rgb(251, 150, 110);">
                         <span>打赏支持记录</span></div>
                     <p>
-                        " 打赏规则：1 RMB = 100 🎈 （打赏时可在支付页面填写自己的网址，博客名，备注信息哦，再次感谢支持） "
+                        " 打赏规则: 1 RMB = 100 🐖 （打赏时可在支付页面填写自己的网址，博客名，备注信息哦，再次感谢支持） "
                     </p>
                 </div>
                 <!-- 打赏表格模块 -->
@@ -45,7 +45,7 @@
                     <tr>
                         <th>时间</th>
                         <th>人物</th>
-                        <th>🎈</th>
+                        <th>🐖</th>
                         <th>次数</th>
                         <th>截图</th>
                         <th>备注</th>
@@ -62,7 +62,7 @@
                                 <td>
                                     <a href="<%- url_for(reward.url) %>" target="_blank"><%= reward.name %></a>
                                 </td>
-                                <td><%= reward.money %> x 🎈</td>
+                                <td><%= reward.money %> x 🐖</td>
                                 <td><%= reward.count %></td>
                                 <td>
                                     <a href="<%- url_for(reward.img) %>" target="_blank"><%= reward.type %></a>
@@ -76,8 +76,9 @@
                     </tbody>
                 </table>
             </div>
-            <!-- 评论模块 -->
+            <!-- 评论模块 
             <%- partial('_partial/valine') %>
+            -->
         </div>
     </div>
 </main>
