@@ -165,7 +165,7 @@ recommend:
 # 配置网站favicon和网站LOGO
 favicon: /medias/detail/logo.png
 logo: /medias/detail/logo.png
-logTest: Pig2333
+logTest: HackPig520
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -209,7 +209,7 @@ reward:
 copyright:
   enable: true
   minCharNumber: 200 # 至少复制多少个字符就追加版权信息.
-  description: 本文章著作权归作者Pig2333所有，任何形式的转载都请注明出处。
+  description: 本文章著作权归原作者所有，任何形式的转载都请注明出处！
 
 # Whether to activate the mathjax, this is a global configuration, but the post still does not open the mathjax rendering.
 # Considering that the mathjax loading is time consuming,
@@ -243,8 +243,8 @@ clicklove:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg # 头像
-  career: 🎓安全爱好者 # 职业
-  introduction: 🔔 世界那么大，我先去看看。 # 介绍
+  career: 🎓 安全爱好者 # 职业
+  introduction: 🔔 一个人是孤独的，但是他永远不会寂寞。 # 介绍
 
 
 # config my projects informations in about page.
@@ -270,16 +270,16 @@ mySkills:
       percent: 15%
     JavaScript:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 90%
+      percent: 50%
     HTML5:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 90%
+      percent: 50%
     CSS:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 20%
+      percent: 30%
     SQL:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 40%
+      percent: 12%
     PHP:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 65%
@@ -337,14 +337,14 @@ valine:
     - 小伙伴
     - 访客
   friends: # The MD5 String Array of friends Email to show friends Flag.[Just Only xCss Style mode]
-    - d6aa745c99f223819bf39b01d1397be9 # 闲花手札
-    - 68c4c9e1b9a3d34317dc6faefe2ea00e # 阿蓝
+    - d6aa745c99f223819bf39b01d1397be9 # 等你到家点解点解
+    - 68c4c9e1b9a3d34317dc6faefe2ea00e # 记得记得
 
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: false
-  url: https://github.com/xiaozhu2007/hexo-theme-pigfly
+  url: https://github.com/xiaozhu2007/blog
   title: Fork Me
 
 # The password verification feature of read post. To use this feature,
@@ -372,7 +372,7 @@ googleAnalytics:
   id:
 
 daoVoice:
-  enable: false
+  enable: true
   id: b40915e3
 
 # Add baidu analytics configuration
@@ -529,14 +529,12 @@ subtitle:
     - 鸿鹄岂甘等闲志,斗胆立势同海枯.
     - 如果上帝关了你的门并顺带关了你的窗，记住，这是上帝要开空调了。
     - 这个世界上没有谁离不开谁，就算是一条鱼，离开了水，也能烤着吃。(>^ω^<)喵～
-    - A little pig with a big dream.
 
 # 手机二级菜单.
 navMenu:
   mleft: true # 二级侧栏子菜单是否对齐左边
   leftMargin: 0px #
   bgColor: " " # 二级侧栏子菜单背景颜色,留空即为全局背景色
-
 
 
 # banner 是否每日切换.
@@ -550,9 +548,9 @@ visiterMap:
 
 # ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://icp.gov.moe/?keyword=20229899 # 备案链接
+  text: 萌ICP备20229899号 # 备案信息
 
 # 又拍联盟图标(小)
 youpai:
