@@ -62,13 +62,19 @@ const handle = async (req) => {
     const pathname = urlObj.href.substr(urlObj.origin.length)
     const port = urlObj.port
     const domain = (urlStr.split('/'))[2]
-    if (pathname.match(/\/sw\.js/g)) { return fetch(req) }
-    if (pathname.match('/cdn-cgi/')) return new Response(null, { status: 400 })
+    if (pathname.match(/\/sw\.js/g)) return fetch(req)
+    if (pathname.match('/cdn-cgi/')) return new Response(null, { status: 403 })
+    const path = pathname.split('?')[0]
+    const query = q => urlObj.searchParams.get(q)
+    const nqurl = urlStr.split('?')[0]
+    const nqreq = new Request(nqurl)
     
+    if (query('nosw') == 'true') {
+        return fetch(req)
+    }
     if (domain.match("unpkg.com")) {
         return fetch(req.url.replace("https://unpkg.com", "https://zhimg.unpkg.com"));
-    }
-    else {
+    } else {
         return fetch(req)
     }
 }
