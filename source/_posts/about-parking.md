@@ -24,6 +24,16 @@ date: 2022-08-15 22:14:11
 
 作者Pig2333认为除了那些深度开发的，能带来很好用户体验的优质域名外，大部分停靠域名都应该避免搜索引擎优化。有些价值很高的域名，在一个停放商那进行域名停靠，结果后来却被搜索引擎封杀了，现停靠的收入每年仅有几百元，也没有买家愿意购买。显然，这是得不偿失的!
 
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1596042186115709"
+     data-ad-slot="1775435613"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 域名停放的常见原因
 
 #### 1.名称保留
@@ -41,7 +51,15 @@ Domain Parking的重要原因之一就是保留域名。如前所述，好的域
 Domain Parking并不意味着它坐在那里什么也不做。许多精通业务的所有者选择通过域名停放来赚钱，以便他们可以在不使用该域名时产生一些收入，少则挣回了域名续费的费用，多则挣得比自己运营这个网站都要多。
 
 选择一个合适可靠的托管服务商后，你可以轻松在托管域名上显示广告。每次有人访问你的网页并点击广告，你就会获得一定的收入。这是减少部分注册费用并充分利用域名的好方法。有许多服务商可以为你完成此任务，换取一定比例的利润。
-
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-1596042186115709"
+     data-ad-slot="1775435613"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## 怎样使域名停放页获取流量？
 域名停放服务商会严格限制你为停放页面增加流量的做法。比如通过广告、链接等方式为页面获得流量都是与域名停放服务商的服务条款相悖的。停放业务适用于那些已经有潜在流量可能的域名，这些域名包括带有极佳关键词的域名、**被搜索引擎收录的域名**、原来建过站的域名、**打错的域名**、同名不同域名后缀的域名等，具体会在以后的文章内讲到。
 
