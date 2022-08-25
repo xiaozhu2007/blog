@@ -68,7 +68,9 @@ const handle = async (req) => {
     const query = q => urlObj.searchParams.get(q)
     const nqurl = urlStr.split('?')[0]
     const nqreq = new Request(nqurl)
-    
+    if (urlStr.match(/\/blog\-cgi/g)) {
+        return handlecgi(req)
+    }
     if (query('nosw') == 'true') {
         return fetch(req)
     }
