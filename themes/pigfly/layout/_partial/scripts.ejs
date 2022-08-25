@@ -21,7 +21,7 @@
                              window.localStorage.setItem('Pig2333BlogHelper_Set', 2)
                              //window.location.search = `?time=${ranN(1, 88888888888888888)}` //已弃用,在等待500ms安装成功后直接刷新没有问题
                              window.location.reload()//刷新,以载入sw.js
-                        }, 500)//安装后等待500ms使其激活
+                        }, 1000)//安装后等待1000ms使其激活
                     }
                  })
                 .catch(err => console.error(`Pig2333BlogHelperError:${err}`))
@@ -62,7 +62,7 @@
     // Display a success notification
     notyf.success({
         message: '您已启用JavaScript, 并享受全球加速中!',
-        duration: 100,
+        duration: 500,
         dismissible: true,
         icon: true
     });
