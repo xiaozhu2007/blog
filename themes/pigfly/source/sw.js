@@ -1,4 +1,30 @@
+///// 定义 /////
 const CACHE_NAME = 'PigCDNCache';
+self.cons = {
+    s: (m) => {
+        console.log(`%c[SUCCESS]%c ${m}`, 'color:white;background:green;', '')
+    },
+    w: (m) => {
+        console.log(`%c[WARNING]%c ${m}`, 'color:brown;background:yellow;', '')
+    },
+    i: (m) => {
+        console.log(`%c[INFO]%c ${m}`, 'color:white;background:blue;', '')
+    },
+    e: (m) => {
+        console.log(`%c[ERROR]%c ${m}`, 'color:white;background:red;', '')
+    },
+    d: (m) => {
+        console.log(`%c[DEBUG]%c ${m}`, 'color:white;background:black;', '')
+    }
+}
+
+const generate_uuid = () => {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16);
+    });
+}
+
 let cachelist = [
     '/offline.html',
     'https://npm.elemecdn.com/chenyfan-os@0.0.0-r6'
@@ -31,7 +57,14 @@ self.addEventListener('message', (event) => {
 
 ///// 处理器 /////
 const handle = async (req) => {
-    const domain = req.url.split('/')[2];
+    const urlStr = req.url
+    let urlObj = new URL(urlStr)
+    const pathname = urlObj.href.substr(urlObj.origin.length)
+    const port = urlObj.port
+    const domain = (urlStr.split('/'))[2]
+    if (pathname.match(/\/sw\.js/g)) { return fetch(req) }
+    if (pathname.match('/cdn-cgi/')) return new Response(null, { status: 400 })
+    
     if (domain.match("unpkg.com")) {
         return fetch(req.url.replace("https://unpkg.com", "https://zhimg.unpkg.com"));
     }
