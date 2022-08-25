@@ -101,5 +101,14 @@ const handlecgi = async (req) => {
     const query = q => urlObj.searchParams.get(q)
     const endpoint = "https://cdn1.tianli0.top/npm/chenyfan-blog-helper-dash@0.0.9/"
     let dash_main = await (await fetch(endpoint + 'index.html')).text()
+    let client_ip = await (await fetch('https://icanhazip.com/')).text()
+    return new Response(dash_main
+                .replace(/<!--IP-->/g, client_ip)
+                .replace(/<!--SECTION-->/g, '')
+                , {
+                    headers: {
+                        'Content-Type': 'text/html'
+                    }
+                })
 }
 
