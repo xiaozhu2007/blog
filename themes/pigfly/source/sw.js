@@ -83,3 +83,23 @@ const handleerr = async (req, msg) => {
     return new Response(`<h1>网站遇到了致命错误</h1>
     <b>${msg}</b>`, { headers: { "content-type": "text/html; charset=utf-8" } })
 }
+const handlecgi = async (req) => {
+    const intelligent_size = (byte) => {
+        if (byte < 1024) {
+            return `${byte}B`
+        } else if (byte < 1024 * 1024) {
+            return `${(byte / 1024).toFixed(2)}KB`
+        } else if (byte < 1024 * 1024 * 1024) {
+            return `${(byte / 1024 / 1024).toFixed(2)}MB`
+        } else {
+            return `${(byte / 1024 / 1024 / 1024).toFixed(2)}GB`
+        }
+    }
+    const urlStr = req.url
+    let urlObj = new URL(urlStr)
+    const pathname = urlObj.href.substr(urlObj.origin.length)
+    const query = q => urlObj.searchParams.get(q)
+    const endpoint = "https://cdn1.tianli0.top/npm/chenyfan-blog-helper-dash@0.0.9/"
+    let dash_main = await (await fetch(endpoint + 'index.html')).text()
+}
+
