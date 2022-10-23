@@ -114,7 +114,7 @@ sed -i 's/online-mode=true/online-mode=false/g' server.properties
 
 paper关于刷沙的issue：https://github.com/PaperMC/Paper/issues/3724
 
-```YAML paper.yml
+```YAML
 # paper.yml
 # ......
 settings:
