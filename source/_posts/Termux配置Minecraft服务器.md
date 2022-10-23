@@ -163,6 +163,9 @@ world-settings:
       lava-obscures: false
       use-permission: false # 用权限管理
       hidden-blocks: # 隐藏的方块
+        # You can add air here such that many holes are generated.
+      # This works well against cave finders but may cause client FPS drops for all players.
+      # - air
       - gold_ore
       - iron_ore
       - coal_ore
