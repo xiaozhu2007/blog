@@ -1,6 +1,6 @@
 {
   "name": "xiaozhu2007-blog",
-  "version": "0.0.2",
+  "version": "0.0.21",
   "private": true,
   "scripts": {
     "build": "hexo generate",
@@ -9,14 +9,14 @@
     "s": "hexo server"
   },
   "hexo": {
-    "version": "5.4.0"
+    "version": "6.3.0"
   },
   "dependencies": {
     "hexo": "^6.3.0",
     "hexo-abbrlink": "^2.2.1",
     "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^3.0.0",
-    "hexo-encrypt": "0.5.5",
+    "hexo-encrypt": "^0.5.5",
     "hexo-filter-github-emojis": "^3.0.5",
     "hexo-helper-live2d": "^3.1.1",
     "hexo-lazyload-image": "^1.0.12",
@@ -37,7 +37,6 @@
     "hexo-generator-feed": "3.0.0",
     "hexo-admonition": "1.1.2",
     "live2d-widget-model-hijiki": "^1.0.5",
-    "live2d-widget-model-tororo": "^1.0.5",
-    "youtube.get-video-info": "1.0.2"
+    "live2d-widget-model-tororo": "^1.0.5"
   }
 }
