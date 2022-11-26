@@ -87,4 +87,4 @@ PWA支持(现已禁用)
 [blog]: https://xiaozhu2007.netlify.app/
 [pigfly]: https://github.com/xiaozhu2007/hexo-theme-pigfly
 [gh_blog]: https://github.com/xiaozhu2007/blog
-[afdian]: https://afdian.net/a/xiaozhu2021
+[afdian]: https://afdian.net/order/create?plan_id=5931b3de017b11eca91752540025c377&product_type=0
