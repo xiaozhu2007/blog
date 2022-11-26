@@ -1,4 +1,4 @@
-/_/*     /.netlify/functions/:splat
+/_/*     /.netlify/functions/:splat              200
 /_api/*  https://api.pig2333.workers.dev/:splat  200
 /_gp/*   https://git.pig2333.workers.dev/:splat  200
 

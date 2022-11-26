@@ -6,10 +6,10 @@
     output_path = "reports/lighthouse.html"
 
 [[plugins]]
-package = "@netlify/plugin-sitemap"
+  package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   buildDir = "public"
   filePath = "sitemaps.xml"
   changeFreq = "daily"
-  priority = 0.6
+  priority = 0.8

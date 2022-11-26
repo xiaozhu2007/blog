@@ -513,7 +513,7 @@ sharejs:
 # addthis文章分享模块.
 addthis:
   enable: false
-  pubid:  # 前往https://www.addthis.com/获取
+  pubid:  # 前往https://www.addthis.com/
 
 # 打字效果副标题.
 # 如果有符号 ' ，请在 ' 前面加上 \ 
