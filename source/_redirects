@@ -1,5 +1,6 @@
+/_/*     /.netlify/functions/:splat
 /_api/*  https://api.pig2333.workers.dev/:splat  200
-/_gp/*  https://git.pig2333.workers.dev/:splat  200
+/_gp/*   https://git.pig2333.workers.dev/:splat  200
 
 # No WordPress.
 /wp-admin/index.php  /robots       400
