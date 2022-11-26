@@ -37,6 +37,7 @@
     "hexo-generator-feed": "3.0.0",
     "hexo-admonition": "1.1.2",
     "live2d-widget-model-hijiki": "^1.0.5",
-    "live2d-widget-model-tororo": "^1.0.5"
+    "live2d-widget-model-tororo": "^1.0.5",
+    "dns": "0.2.2"
   }
 }
