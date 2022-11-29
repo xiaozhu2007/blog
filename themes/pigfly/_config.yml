@@ -56,6 +56,9 @@ menu:
       - name: 友情链接
         url: /friends
         icon: fas fa-address-book
+      - name: 申请二级域名
+        url: https://yeeee.ml/
+        icon: fas fa-image
       - name: 留言板
         url: /contact
         icon: fas fa-comments
@@ -173,7 +176,7 @@ logTest: HackPig520
 socialLink:
   enable: true
   github:  https://github.com/xiaozhu2007
-  email: pig2333minecraft@yeah.net
+  email: i@yeeee.ml
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
   qq: 3356136957
@@ -522,9 +525,9 @@ subtitle:
   enable: true
   loop: true # 是否循环
   showCursor: true # 是否显示光标
-  startDelay: 300 # 开始延迟
-  typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  startDelay: 1200 # 开始延迟
+  typeSpeed: 120 # 打字速度
+  backSpeed: 60 # 删除速度
   sub:
     - 鸿鹄岂甘等闲志,斗胆立势同海枯.
     - 如果上帝关了你的门并顺带关了你的窗，记住，这是上帝要开空调了。
