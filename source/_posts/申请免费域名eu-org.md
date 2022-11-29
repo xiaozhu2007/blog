@@ -1,6 +1,6 @@
 ---
 title: 2022年如何申请EU.ORG免费二级域名
-img: '/medias/article/5.jpg'
+img: '/medias/featureimages/9.jpg'
 toc: false
 top: false
 mathjax: false
