@@ -39,7 +39,11 @@ Cloud Shell 中已预装了您常用的许多命令行工具，从 `bash` 和 `s
 
 Cloud Shell 提供 5GB 的永久性磁盘存储空间，作为您在 Cloud Shell 实例上的 `$HOME` 目录。您存储在主目录中的所有文件（包括脚本以及 `.bashrc` 和 `.vimrc` 等用户配置文件）在不同会话之间共享。
 
-![在运行于 Cloud Shell 中的集群中创建并部署一个 Kubernetes 留言板应用]()
+### 产品演示
+
+![在运行于 Cloud Shell 中的集群中创建并部署一个 Kubernetes 留言板应用](https://lh3.googleusercontent.com/WhS3gyjmk-B3XGdOYtPsnCN6XWkbJPNk4WiTm6wF2RjjANdXcmKjzsPf6WPnvIYlWP_emz55lMYB=e14-w1502)
+
+![从 Google Cloud Console 中启动 Cloud Shell 并检查 gcloud 组件的版本](https://lh3.googleusercontent.com/bADt-LplQDbOD3LLXc8nB4zC5GUjV0MCieIWXOUd7j7gaHL2uDuPuZt3kYdl_KoclG4OHTQp26k=e14-w1502)
 
 ### 用量配额
 
