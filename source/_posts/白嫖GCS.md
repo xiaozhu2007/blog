@@ -1,5 +1,5 @@
 ---
-title: 无需信用卡，永久白嫖！谷歌云免费创建 RDP 远程桌面
+title: 无需信用卡，白嫖谷歌云创建 RDP 远程桌面！
 img: "/medias/featureimages/1.jpg"
 toc: true
 top: false

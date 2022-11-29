@@ -64,3 +64,6 @@ Node 是一个 48 bits 的无符号数，对于 version 为 1 的 UUID，它选�
 计算出来的结果必须是一样的，但是不同的 namespace 中的同样的 name 生成的结果是不一样的。
 
 version3 和 version5 中的三个变量因子都是由hash 算法保证的，version3是md5, version5是sha1。
+
+---
+好了，这次教程就到这里啦~ 如果我认为 Cloud Shell 体验不错的话，以后会继续更新的鸭！如果您认为这篇文章对您有帮助，可以考虑一下[赞助](https://afdian.net/order/create?plan_id=5931b3de017b11eca91752540025c377&product_type=0)吗？谢谢啦~

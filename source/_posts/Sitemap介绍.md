@@ -24,3 +24,6 @@ Google 引入了 Google 网站地图使得网页开发者可以发布整个站�
 
 
 本站有一个Sitemap范例（自动生成），你可以在[这里](/sitemap.xml)看看
+
+---
+好了，这次教程就到这里啦~ 如果我认为 Cloud Shell 体验不错的话，以后会继续更新的鸭！如果您认为这篇文章对您有帮助，可以考虑一下[赞助](https://afdian.net/order/create?plan_id=5931b3de017b11eca91752540025c377&product_type=0)吗？谢谢啦~
