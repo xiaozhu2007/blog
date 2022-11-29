@@ -39,7 +39,7 @@ Cloud Shell 中已预装了您常用的许多命令行工具，从 `bash` 和 `s
 
 #### 5 GB 永久性磁盘存储空间
 
-Cloud Shell 提供 5GB 的永久性磁盘存储空间，作为您在 Cloud Shell 实例上的 `$HOME` 目录。您存储在主目录中的所有文件（包括脚本以及 `.bashrc` 和 `.vimrc` 等用户配置文件）在不同会话之间共享。
+Cloud Shell 提供 5GB 的**永久性磁盘存储空间**，作为您在 Cloud Shell 实例上的 `$HOME` 目录。您存储在主目录中的所有文件（包括脚本以及 `.bashrc` 和 `.vimrc` 等用户配置文件）在不同会话之间共享。
 
 ### 产品演示
 
