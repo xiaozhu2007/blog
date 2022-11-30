@@ -1,10 +1,10 @@
 ---
 title: 什么是域名停靠？
-img: '/medias/article/essay-life.jpg'
+img: 'https://s1.ax1x.com/2022/11/30/zw429K.png'
 toc: false
 top: false
 mathjax: false
-categories: 涨知识
+categories: 学习
 tags:
   - 域名
 essay: false

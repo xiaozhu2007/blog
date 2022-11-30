@@ -1,118 +1,147 @@
 ---
 title: Termux安装Java并配置Minecraft服务器
-img: '/medias/featureimages/6.jpg'
+img: "/medias/featureimages/6.jpg"
 icon: app
 date: 2021-08-27
-updated: 2022-10-23 09:20:42
-category: 软件
+updated: 2022-11-30 20:10:42
+category: 学习
 tag:
-  - Git
   - Termux
   - Java
   - Minecraft
 isOriginal: true
 ---
 
-本篇文章将以一个小白的身份教您如何用Termux安装Java并配置Minecraft服务器。
+本篇文章将以一个小白的身份教您如何用 Termux 安装 Java 并配置 Minecraft 服务器。
+
 <!-- more -->
 
-## Termux下载
-Termux官网：
+## Termux 下载
+
+> 2022/11/30更新：
+> 值得注意的是，`Termux` 更新速度越来越慢了，所以如果您看到 `F-droid` 上的 `Termux` 10 个月没更新，大可不必去管它
+
+Termux 官网：
 https://termux.com/
 
 官网推荐下载地址：
 https://f-droid.org/packages/com.termux/
 
-## 下载Java包
+Termux Github 下载：
+https://github.com/termux/termux-app/releases
 
-> 此处为了演示，使用Java8（理论支持Java11和16）
+## 下载 Java 包
+
+> 此处为了演示，使用 Java8（理论支持 Java11 和 16）
 
 ### 下载解压
 
-#### 下载jdk8/11
-[JDK8下载地址](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
-[JDK11下载地址](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+> 2022/11/01 更新：
+>
+> 当前 Termux 已支持安装 openjdk-17，打开终端，输入如下命令安装
+> `pkg update && pkg install openjdk-17 -y`
+> 即可
 
-我下载的是：jdk-8u291-linux-aarch64.tar.gz（Java11是jdk-11.0.10_linux-aarch64_bin.tar.gz）
+#### 下载 jdk8/11
+
+[JDK8 下载地址](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+[JDK11 下载地址](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+
+我下载的是：jdk-8u291-linux-aarch64.tar.gz（Java11 是 jdk-11.0.10_linux-aarch64_bin.tar.gz）
 解压：
+
 ```bash
 tar -zxvf jdk-8u291-linux-aarch64.tar.gz
 ```
-*or Java11*
+
+_or Java11_
+
 ```bash
 tar -zxvf jdk-11.0.10_linux-aarch64_bin.tar.gz
 ```
+
 解压到一个好记的目录就可以了。
 我解压的目录是：/data/data/com.termux/files/home/java/jdk8/
 
 #### 修改环境变量
+
 配置`vim ~/.zshrc`，增加如下内容：
-```Bash
+
+```bash
 #JDK8
 export JAVA_HOME=/data/data/com.termux/files/home/java/jdk8
 export PATH=$PATH:$JAVA_HOME/bin:.
 export CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:.
 ```
-这样jdk就配置完成了。
 
-```Bash
+这样 jdk 就配置完成了。
+
+```bash
 java --version #查看Java版本
 ```
+
 ---
-## 下载服务端Jar包
+
+## 下载服务端 Jar 包
 
 ### 了解各种服务端
-Minecraft中的服务器有着几种分类：
 
-- [原版服务器](https://minecraft.net/zh-hans/download/server/)，也就是Mojang官方提供的服务器，可以保证稳定，缺点是不支持插件或模组
+Minecraft 中的服务器有着几种分类：
+
+- [原版服务器](https://minecraft.net/zh-hans/download/server/)，也就是 Mojang 官方提供的服务器，可以保证稳定，缺点是不支持插件或模组
 
 - 插件服务器，也就是支持插件的服务器，一般相较于原版优化更多，可以加入插件 例如：[Paper](https://papermc.io/downloads)/[Purpur](https://purpurmc.org/)/[Spigot](https://hub.spigotmc.org/jenkins/job/BuildTools/)/Bukkit
 
 - 模组服务器，也就是支持使用模组的服务器，相较于前两种玩法更多，但是模组多了可能会卡顿 例如：Fabric/Forge
 
-- 混合服务器，也就是同时支持模组和插件的服务器，这种服务器一般不支持太多版本，而且有些模组可能不支持，插件也可能会出错 例如：Mohist
+- 混合服务器，也就是同时支持模组和插件的服务器，这种服务器一般不支持太多版本，而且有些模组可能不支持，插件也可能会出错 例如：Mohist/CatServer
 
-Minecraft服务端有多个版本，下面是部分服务端下载链接：
+Minecraft 服务端有多个版本，下面是部分服务端下载链接：
 
 官方服务端(推荐)：https://mcversions.net/
 
-Purpur服务端(在保留Paper优化同时拥有更多配置)：https://purpurmc.org/
+Purpur 服务端(在保留 Paper 优化同时拥有更多配置)：https://purpurmc.org/
 
-Spigot服务端(需自行构建)：https://hub.spigotmc.org/jenkins/job/BuildTools/
+Spigot 服务端(需自行构建)：https://hub.spigotmc.org/jenkins/job/BuildTools/
 
-Sponge服务端：https://www.spongepowered.org/
+Sponge 服务端：https://www.spongepowered.org/
 
 回到终端，继续输入
+
 ```bash
 cd ~
-mkdir mc 
+mkdir mc
 cd mc
 wget https://api.papermc.io/v2/projects/paper/versions/1.19.2/builds/230/downloads/paper-1.19.2-230.jar #1.19.2 Paper 第230次构建
 echo "java -jar server.jar nogui" > start.sh
 bash start.sh
 ```
-首次启动会失败，需要手动接受《最终用户许可协议》（EULA）
+
+首次启动会失败，需要**手动**接受《最终用户许可协议》（EULA）
+
 ```bash
-# 一键修改命令
+# 不过我把它打包成了一键修改命令
 sed -i 's/eula=false/eula=true/g' eula.txt
 ```
-主配置文件是server.properties，其中大部分配置在这里进行修改
+
+主配置文件是 server.properties，其中大部分配置在这里进行修改
 
 比如：启用离线模式（盗版可进）
 
 ```bash
-# 一键修改命令
+# 同上，一键修改命令
 sed -i 's/online-mode=true/online-mode=false/g' server.properties
 ```
 
 ## 优化
-注意：这个栏目仅针对Paper以及Purpur
 
-- [Purpur端生电向配置](https://www.bilibili.com/read/cv18220927)
+注意：这个栏目仅针对 Paper 以及 Purpur
 
-> 首先，Paper默认是不允许tnt、铁轨和地毯的复制，以及破基岩、刷沙等特性的，但是可以通过开关开启tnt铁轨地毯复制和破基岩，其他的都不行，只能改源码
+- [Purpur 端生电向配置](https://www.bilibili.com/read/cv18220927)
 
-paper关于刷沙的issue：https://github.com/PaperMC/Paper/issues/3724
+> 首先，Paper 默认是不允许 tnt、铁轨和地毯的复制，以及破基岩、刷沙等特性的，但是可以通过开关开启 tnt 铁轨地毯复制和破基岩，其他的都不行，只能改源码
+
+paper 关于刷沙的 issue：https://github.com/PaperMC/Paper/issues/3724
 
 ```YAML
 # paper.yml
