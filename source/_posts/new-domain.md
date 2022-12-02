@@ -1,11 +1,11 @@
 ---
 title: 我终于拥有了一个属于自己的新域名！
-author: PigWaf
+author: 刘禛
 img: '/medias/featureimages/20.jpg'
 top: false
 toc: false
 mathjax: false
-essay: false
+essay: true
 date: 2022-12-01 08:37:16
 ---
 
