@@ -12,6 +12,5 @@ summary: 你的危险行为被WAF拦截了
 
 # 请立即停止你的所作所为
 
-你的危险行为被WAF拦截了，请注意您的危险行为，提醒一下，非法渗透是违法的！
-
-（未完待续）
+你的危险行为被WAF拦截了！
+[![](https://s1.ax1x.com/2022/12/07/zgFSzj.png)](https://evolution-host.com/)
