@@ -1,7 +1,9 @@
+# Netlify Functions
 /_/*     /.netlify/functions/:splat              200
-/_api/*  https://api.pig2333.workers.dev/:splat  200
-/_gp/*   https://git.pig2333.workers.dev/:splat  200
-
+# Bitiful S4 / 缤纷云S4
+# Example: /__/2022/049c650cb10279a655750dc6cdea5b7c.jpg
+/__/*   https://lz-oss-0.s3.ladydaily.com/image/:splat  200
+###############################################################################
 # No WordPress.
 /wp-admin/index.php  /robots       400
 /wp-includes/*       /robots       400
@@ -14,8 +16,8 @@
 /zb_system/*             /robots       400
 /zb_user/*               /robots       400
 /admin                   /robots       400
-#/rss.xml                 /robots       400
+#/rss.xml                /robots       400
 /wp-admin/login.php      /robots       400
-
+###############################################################################
 # For search engines
 /sitemap.html        /sitemap.xml      200
