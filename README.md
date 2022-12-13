@@ -1,7 +1,7 @@
 <div align="center">
   <h1>HackPig520's Blog</h1>
 
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/78c67981-3f26-4c95-bdc8-c311ed58fd1e/deploy-status)](https://app.netlify.com/sites/xiaozhu2007/deploys)[![Made with ❤](https://flat.badgen.net/badge/made%20with/%e2%9d%a4/ff69b4)](blog)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78c67981-3f26-4c95-bdc8-c311ed58fd1e/deploy-status)](https://app.netlify.com/sites/xiaozhu2007/deploys)[![Made with ❤](https://flat.badgen.net/badge/made%20with/%e2%9d%a4/ff69b4)](blog)
 
 </div>
 
@@ -48,18 +48,32 @@
 
 没错，我们提供了一些基于 Netlify Functions 的 API 服务，具体如下：
 
-| API Endpoint    | 需要 Token | 参数                                                   | 使用限制(有 Token 可绕过)          | 返回类型 |
-| --------------- | ---------- | ------------------------------------------------------ | ---------------------------------- | :------: |
-| `/_/dns-lookup` | 可选       | `hostname`：需要查询的目标地址，`type`：指定查询的类型  | 30 次/小时/IP，超限直接永久封禁 IP | JSON     |
-| `/_/emoji`      | 可选       | 无                                                     | 30 次/小时/IP，超限直接永久封禁 IP | JSON     |
-| `/_/ping`       | 可选       | `msg`：指定返回信息                                    | 30 次/小时/IP，超限直接永久封禁 IP | JSON     |
+| API Endpoint    | 需要 Token | 参数                                                     | 使用限制(有 Token 可绕过)          | 返回类型 |
+| --------------- | ---------- | -------------------------------------------------------- | ---------------------------------- | :------: |
+| `/_/dns-lookup` | 可选       | `hostname`：需要查询的目标地址，`type`：指定查询的[类型] | 30 次/小时/IP，超限直接永久封禁 IP |   JSON   |
+| `/_/emoji`      | 可选       | 无                                                       | 30 次/小时/IP，超限直接永久封禁 IP |   JSON   |
+| `/_/ping`       | 可选       | `msg`：指定返回信息                                      | 30 次/小时/IP，超限直接永久封禁 IP |   JSON   |
 
 当前支持的 Enderpoint 列表：
+
 ```
 xiaozhu2007.netlify.app
 liuzhen932.fun(2023/11/21起不再支持，请等待更换新域名)
 pig.cn.eu.org(2022/12/28起不再支持，请使用其他的 Enderpoint)
 ```
+
+#### 以下列出了有效的 `types` 值
+
+- 'A' IPV4 地址, 默认
+- 'AAAA' IPV6 地址
+- 'MX' 邮件交换记录
+- 'TXT' text 记录
+- 'SRV' SRV 记录
+- 'PTR' 用来反向 IP 查找
+- 'NS' 域名服务器记录
+- 'CNAME' 别名记录
+- 'SOA' 授权记录的初始值
+
 ### API Token 购买
 
 在[爱发电][afdian]赞助我`5`元即可获得 API Token **366 天**的使用权
