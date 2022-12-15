@@ -8,6 +8,8 @@ exports.handler = async function (event, context) {
     statusCode: 200,
     body: JSON.stringify({
       message: custom_message,
+      time: Date.now(),
+      times: Math.floor(Date.now() / 1000),
       code: 0
     }),
   };
