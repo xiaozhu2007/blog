@@ -25,40 +25,40 @@
 
 - 5.拥有尽可能多的原创内容.
 
-- 6.如果因特殊原因而更换地址，请提出 Issues!
+- 6.如果因特殊原因而更换地址, 请提出 Issues!
 
 ---
 
-添加方式：
+添加方式:
 
 - 进入[本仓库][gh_blog], 直接修改(友链配置文件)
   <https://github.com/xiaozhu2007/blog/blob/master/source/_data/friends.json> 按照示例规则添加友链.
 
-- Commit Message 请填写 `添加友链 <你的博客地址，不带协议，不带斜杠>` （不要添加尖括号!），否则打回重新提交.
+- Commit Message 请填写 `添加友链 <你的博客地址, 不带协议, 不带斜杠>` （不要添加尖括号!）, 否则打回重新提交.
 
 - 修改下方的选项为`Create a new branch for this commit and start a pull request.`.
 
-- 修改方框内文字为`links/<你的博客名称缩写(小写)>`，例如`blog.loser114514.io`可以填写为`links/loser114514`.
+- 修改方框内文字为`links/<你的博客名称缩写(小写)>`, 例如`blog.loser114514.io`可以填写为`links/loser114514`.
 
-- 点击`Sign off and commit changes`，确认无误后，向仓库发起 PullRequest.
+- 点击`Sign off and commit changes`, 确认无误后, 向仓库发起 PullRequest.
 
 ## API
 
-没错，我们提供了一些基于 Netlify Functions 的 API 服务，具体如下：
+没错, 我们提供了一些基于 Netlify Functions 的 API 服务, 具体如下:
 
-| API Endpoint    | 需要 Token | 参数                                                     | 使用限制(有 Token 可绕过)          | 返回类型 |
-| --------------- | ---------- | -------------------------------------------------------- | ---------------------------------- | :------: |
-| `/_/dns-lookup` | 可选       | `hostname`：需要查询的目标地址，`type`：指定查询的[类型] | 30 次/小时/IP，超限直接永久封禁 IP |   JSON   |
-| `/_/emoji`      | 可选       | 无                                                       | 30 次/小时/IP，超限直接永久封禁 IP |   JSON   |
-| `/_/ping`       | 可选       | `msg`：指定返回信息                                      | 30 次/小时/IP，超限直接永久封禁 IP |   JSON   |
+| API Endpoint    | 参数                                 | 使用限制   | 返回 |
+| --------------- | ------------------------------------ | ---------- | ---- |
+| `/_/dns-lookup` | `hostname`: 目标地址, `type`: 见下方 | 30 次/h/IP | JSON |
+| `/_/emoji`      | 无                                   | 30 次/h/IP | JSON |
+| `/_/ping`       | `msg`: 指定返回信息                  | 30 次/h/IP | JSON |
 
-当前支持的 Enderpoint 列表：
+当前支持的 Enderpoint 列表:
 
 ```
 xiaozhu2007.netlify.app(推荐)
-liuzhen932.fun(2023/11/21起不再支持，请等待更换新域名)
-fallback.liuzhen932.fun(备用域名，同上)
-pig.cn.eu.org(2022/12/28起不再支持，请使用其他的 Enderpoint)
+liuzhen932.fun(2023/11/21起不再支持, 请等待更换新域名)
+fallback.liuzhen932.fun(备用域名, 同上)
+pig.cn.eu.org(2022/12/28起不再支持, 请使用其他的 Enderpoint)
 ```
 
 ### 以下列出了有效的 `types` 值
@@ -74,7 +74,9 @@ pig.cn.eu.org(2022/12/28起不再支持，请使用其他的 Enderpoint)
 - 'SOA' 授权记录的初始值
 
 ### 错误码
-每次 DNS 查询都可能返回以下错误码：
+
+每次 DNS 查询都可能返回以下错误码:
+
 ```
 dns.NODATA: 无数据响应
 dns.FORMERR: 查询格式错误
@@ -104,9 +106,9 @@ dns.CANCELLED: 取消 DNS 查询
 
 ### API Token 购买 & 使用
 
-在[爱发电][afdian]赞助我`5`元即可获得 API Token；食用方法：添加参数`token`，参数值为您的 Token 值
+在[爱发电][afdian]赞助我`5`元即可获得 API Token；食用方法: 添加参数`token`, 参数值为您的 Token 值
 
-举个例子：`/_/something?token=kgbnvPFYtH8RYxxRt3JPekmR5ChFhRL5`
+举个例子: `/_/something?token=kgbnvPFYtH8RYxxRt3JPekmR5ChFhRL5`
 
 [blog]: https://xiaozhu2007.netlify.app/
 [gh_blog]: https://github.com/xiaozhu2007/blog
