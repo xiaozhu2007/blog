@@ -62,7 +62,7 @@ liuzhen932.fun(2023/11/21起不再支持，请等待更换新域名)
 pig.cn.eu.org(2022/12/28起不再支持，请使用其他的 Enderpoint)
 ```
 
-#### 以下列出了有效的 `types` 值
+### 以下列出了有效的 `types` 值
 
 - 'A' IPV4 地址, 默认
 - 'AAAA' IPV6 地址
@@ -74,29 +74,38 @@ pig.cn.eu.org(2022/12/28起不再支持，请使用其他的 Enderpoint)
 - 'CNAME' 别名记录
 - 'SOA' 授权记录的初始值
 
-### API Token 购买
-
-在[爱发电][afdian]赞助我`5`元即可获得 API Token **366 天**的使用权
-
-### API Token 使用
-
-添加参数`token`，参数值为您的 Token 值。如：`/_/something?token=kgbnvPFYtH8RYxxRt3JPekmR5ChFhRL5`
-
-## 定制与参考
-
-本站经过**定制**，加入了某些你不需要的东西，具体如下：
-
+### 错误码
+每次 DNS 查询都可能返回以下错误码：
 ```
-ServiceWorker(https://xiaozhu2007.netlify.app/sw.js)
-API 服务
-PWA支持(现已禁用)
-百度统计(https://tongji.baidu.com/)
-广告(https://xiaozhu2007.netlify.app/about/ads)
-友链截图(https://github.com/xiaozhu2007/ScreenShot)
+dns.NODATA: 无数据响应。
+dns.FORMERR: 查询格式错误。
+dns.SERVFAIL: 常规失败。
+dns.NOTFOUND: 没有找到域名。
+dns.NOTIMP: 未实现请求的操作。
+dns.REFUSED: 拒绝查询。
+dns.BADQUERY: 查询格式错误。
+dns.BADNAME: 域名格式错误。
+dns.BADFAMILY: 地址协议不支持。
+dns.BADRESP: 回复格式错误。
+dns.CONNREFUSED: 无法连接到 DNS 服务器。
+dns.TIMEOUT: 连接 DNS 服务器超时。
+dns.EOF: 文件末端。
+dns.FILE: 读文件错误。
+dns.NOMEM: 内存溢出。
+dns.DESTRUCTION: 通道被摧毁。
+dns.BADSTR: 字符串格式错误。
+dns.BADFLAGS: 非法标识符。
+dns.NONAME: 所给主机不是数字。
+dns.BADHINTS: 非法HINTS标识符。
+dns.NOTINITIALIZED: c c-ares 库尚未初始化。
+dns.LOADIPHLPAPI: 加载 iphlpapi.dll 出错。
+dns.ADDRGETNETWORKPARAMS: 无法找到 GetNetworkParams 函数。
+dns.CANCELLED: 取消 DNS 查询。
 ```
 
-这些东西需要经过比较复杂的配置，**不能**直接复制粘贴来使用，所以你可以预览和参考，但是如果想自己建造博客，
-请你最好还是安装[pigfly](pigfly)主题
+### API Token 购买 & 使用
+
+在[爱发电][afdian]赞助我`5`元即可获得 API Token；食用方法：添加参数`token`，参数值为您的 Token 值。如：`/_/something?token=kgbnvPFYtH8RYxxRt3JPekmR5ChFhRL5`
 
 [blog]: https://xiaozhu2007.netlify.app/
 [pigfly]: https://github.com/xiaozhu2007/hexo-theme-pigfly
