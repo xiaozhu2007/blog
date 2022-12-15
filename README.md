@@ -13,7 +13,7 @@
 </p>
 <div align="center">欢迎添加友情链接!不过您需要注意以下几点:</div>
 	
-+ 0.确保站点内容不违反中国大陆法律
+- 0.确保站点内容不违反中国大陆法律
 
 - 1.建站时间不小于**6 个月**.
 
@@ -21,13 +21,11 @@
 
 - 3.时间达到 30 天无法正常访问的将会被删除, 解决方法参见第 8 条.
 
-- 4.我们对免费二级域名(如：\*.netlify.app、\*.gitlab.io、\*.coding.me、\*.github.io 等)和免费顶级域名给予支持.
+- 4.确保站点可以以 HTTPS 访问,可以不强制 HTTPS.
 
-- 5.确保站点可以以 HTTPS 访问,可以不强制 HTTPS.
+- 5.拥有尽可能多的原创内容.
 
-- 6.拥有尽可能多的原创内容.
-
-- 7.如果因特殊原因而更换地址，请提出 Issues!
+- 6.如果因特殊原因而更换地址，请提出 Issues!
 
 ---
 
@@ -57,8 +55,9 @@
 当前支持的 Enderpoint 列表：
 
 ```
-xiaozhu2007.netlify.app
+xiaozhu2007.netlify.app(推荐)
 liuzhen932.fun(2023/11/21起不再支持，请等待更换新域名)
+fallback.liuzhen932.fun(备用域名，同上)
 pig.cn.eu.org(2022/12/28起不再支持，请使用其他的 Enderpoint)
 ```
 
@@ -77,37 +76,38 @@ pig.cn.eu.org(2022/12/28起不再支持，请使用其他的 Enderpoint)
 ### 错误码
 每次 DNS 查询都可能返回以下错误码：
 ```
-dns.NODATA: 无数据响应。
-dns.FORMERR: 查询格式错误。
-dns.SERVFAIL: 常规失败。
-dns.NOTFOUND: 没有找到域名。
-dns.NOTIMP: 未实现请求的操作。
-dns.REFUSED: 拒绝查询。
-dns.BADQUERY: 查询格式错误。
-dns.BADNAME: 域名格式错误。
-dns.BADFAMILY: 地址协议不支持。
-dns.BADRESP: 回复格式错误。
-dns.CONNREFUSED: 无法连接到 DNS 服务器。
-dns.TIMEOUT: 连接 DNS 服务器超时。
-dns.EOF: 文件末端。
-dns.FILE: 读文件错误。
-dns.NOMEM: 内存溢出。
-dns.DESTRUCTION: 通道被摧毁。
-dns.BADSTR: 字符串格式错误。
-dns.BADFLAGS: 非法标识符。
-dns.NONAME: 所给主机不是数字。
-dns.BADHINTS: 非法HINTS标识符。
-dns.NOTINITIALIZED: c c-ares 库尚未初始化。
-dns.LOADIPHLPAPI: 加载 iphlpapi.dll 出错。
-dns.ADDRGETNETWORKPARAMS: 无法找到 GetNetworkParams 函数。
-dns.CANCELLED: 取消 DNS 查询。
+dns.NODATA: 无数据响应
+dns.FORMERR: 查询格式错误
+dns.SERVFAIL: 常规失败
+dns.NOTFOUND: 没有找到域名
+dns.NOTIMP: 未实现请求的操作
+dns.REFUSED: 拒绝查询
+dns.BADQUERY: 查询格式错误
+dns.BADNAME: 域名格式错误
+dns.BADFAMILY: 地址协议不支持
+dns.BADRESP: 回复格式错误
+dns.CONNREFUSED: 无法连接到 DNS 服务器
+dns.TIMEOUT: 连接 DNS 服务器超时
+dns.EOF: 文件末端
+dns.FILE: 读文件错误
+dns.NOMEM: 内存溢出
+dns.DESTRUCTION: 通道被摧毁
+dns.BADSTR: 字符串格式错误
+dns.BADFLAGS: 非法标识符
+dns.NONAME: 所给主机不是数字
+dns.BADHINTS: 非法HINTS标识符
+dns.NOTINITIALIZED: c c-ares 库尚未初始化
+dns.LOADIPHLPAPI: 加载 iphlpapi.dll 出错
+dns.ADDRGETNETWORKPARAMS: 无法找到 GetNetworkParams 函数
+dns.CANCELLED: 取消 DNS 查询
 ```
 
 ### API Token 购买 & 使用
 
-在[爱发电][afdian]赞助我`5`元即可获得 API Token；食用方法：添加参数`token`，参数值为您的 Token 值。如：`/_/something?token=kgbnvPFYtH8RYxxRt3JPekmR5ChFhRL5`
+在[爱发电][afdian]赞助我`5`元即可获得 API Token；食用方法：添加参数`token`，参数值为您的 Token 值
+
+举个例子：`/_/something?token=kgbnvPFYtH8RYxxRt3JPekmR5ChFhRL5`
 
 [blog]: https://xiaozhu2007.netlify.app/
-[pigfly]: https://github.com/xiaozhu2007/hexo-theme-pigfly
 [gh_blog]: https://github.com/xiaozhu2007/blog
 [afdian]: https://afdian.net/order/create?plan_id=5931b3de017b11eca91752540025c377&product_type=0
