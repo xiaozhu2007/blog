@@ -5,19 +5,19 @@
 /__/*   https://lz-oss-0.s3.ladydaily.com/image/:splat  200
 ###############################################################################
 # No WordPress.
-/wp-admin/index.php  /robots       400
-/wp-includes/*       /robots       400
-/wp-content/*        /robots       400
-/wp-login.php        /robots       400
+/wp-admin/index.php  /robots       200
+/wp-includes/*       /robots       200
+/wp-content/*        /robots       200
+/wp-login.php        /robots       200
 # Anti script kiddies.
-/phpinfo.php             /robots       400
-/shell.php               /robots       400
-/index.php               /robots       400
-/zb_system/*             /robots       400
-/zb_user/*               /robots       400
-/admin                   /robots       400
-#/rss.xml                /robots       400
-/wp-admin/login.php      /robots       400
+/phpinfo.php             /robots       200
+/shell.php               /robots       200
+/index.php               /robots       200
+/zb_system/*             /robots       200
+/zb_user/*               /robots       200
+/admin                   /robots       200
+#/rss.xml                /robots       200
+/wp-admin/login.php      /robots       200
 ###############################################################################
 # For search engines
 /sitemap.html        /sitemap.xml      200
