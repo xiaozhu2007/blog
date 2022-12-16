@@ -1,12 +1,13 @@
 ---
 title: 记一次对 Minecraft 的崩溃分析
-img: '/medias/featureimages/5.jpg'
+img: /medias/featureimages/5.jpg
 icon: app
-date: 2021-11-25
 category: 学习
 tag:
   - Minecraft
 isOriginal: false
+abbrlink: 8111
+date: 2021-11-25 00:00:00
 ---
 
 来了解下 Minecraft 的崩溃报告吧!

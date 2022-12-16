@@ -1,12 +1,13 @@
 ---
 title: 什么是UUID？有什么用处？
-img: '/medias/featureimages/8.jpg'
+img: /medias/featureimages/8.jpg
 icon: app
-date: 2022-09-27
 category: 学习
 tag:
   - UUID
 isOriginal: false
+abbrlink: 6271
+date: 2022-09-27 00:00:00
 ---
 
 UUID全称Universally Unique Identifier，即通用唯一识别码。

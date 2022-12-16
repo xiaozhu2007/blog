@@ -1,6 +1,6 @@
 ---
 title: 2022年如何申请EU.ORG免费二级域名
-img: '/medias/featureimages/9.jpg'
+img: /medias/featureimages/9.jpg
 toc: false
 top: false
 mathjax: false
@@ -8,8 +8,9 @@ categories: 学习
 tags:
   - 白嫖
 keywords: EU.org
-date: 2022-10-31 18:35:45
 isOriginal: true
+abbrlink: 52608
+date: 2022-10-31 18:35:45
 ---
 
 免费白嫖【.eu.org】后缀二级域名!

@@ -1,6 +1,6 @@
 ---
 title: 无需信用卡，白嫖谷歌云创建 RDP 远程桌面！
-img: "https://s1.ax1x.com/2022/11/30/zw4etP.png"
+img: 'https://s1.ax1x.com/2022/11/30/zw4etP.png'
 toc: true
 top: false
 mathjax: false
@@ -8,8 +8,9 @@ categories: 学习
 tags:
   - 白嫖
 keywords: 谷歌
-date: 2022-11-29 15:35:15
 isOriginal: true
+abbrlink: 22855
+date: 2022-11-29 15:35:15
 ---
 
 ⏳ 您需要一个美国的节点以继续

@@ -1,9 +1,10 @@
 ---
 title: 如何获取IE？
-img: '/medias/featureimages/0.jpg'
-date: 2020-08-25 18:00:48
-updated: 2021-1-31 05:27:42
+img: /medias/featureimages/0.jpg
 tag: 技巧
+abbrlink: 22089
+date: 2020-08-25 18:00:48
+updated: 2021-01-31 05:27:42
 ---
 
 如何获取IE11，这是一个难以解决的问题。因为Chrome和Edge是我们常用的生产工具，为了怀旧，我们出了这个教程。

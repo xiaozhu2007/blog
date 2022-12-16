@@ -1,12 +1,13 @@
 ---
 title: 用 GitLab CI 进行持续集成
-img: '/medias/featureimages/3.jpg'
+img: /medias/featureimages/3.jpg
 icon: app
-date: 2021-08-27
 category: 学习
 tag:
   - Git
 isOriginal: false
+abbrlink: 35087
+date: 2021-08-27 00:00:00
 ---
 
 本文对应用程序设计中常见的组件及其作用进行了介绍。

@@ -1,12 +1,13 @@
 ---
 title: Sitemap 介绍
-img: '/medias/featureimages/8.jpg'
+img: /medias/featureimages/8.jpg
 icon: app
-date: 2022-05-29
 category: 学习
 tag:
   - SEO
 isOriginal: false
+abbrlink: 52827
+date: 2022-05-29 00:00:00
 ---
 
 网站地图 (Sitemap) 提供 SEO 增强:

@@ -1,15 +1,16 @@
 ---
 title: Termux安装Java并配置Minecraft服务器
-img: "/medias/featureimages/6.jpg"
+img: /medias/featureimages/6.jpg
 icon: app
-date: 2021-08-27
-updated: 2022-11-30 20:10:42
 category: 学习
 tag:
   - Termux
   - Java
   - Minecraft
 isOriginal: true
+abbrlink: 13849
+date: 2021-08-27 00:00:00
+updated: 2022-11-30 20:10:42
 ---
 
 本篇文章将以一个小白的身份教您如何用 Termux 安装 Java 并配置 Minecraft 服务器。
