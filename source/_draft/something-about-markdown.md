@@ -1,7 +1,7 @@
 ---
 title: 一些关于 Markdown 的奇技淫巧
 img: "https://s1.ax1x.com/2022/11/30/zw4etP.png"
-toc: true
+toc: false
 top: false
 mathjax: false
 categories: 学习
