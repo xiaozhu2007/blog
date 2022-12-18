@@ -1,6 +1,6 @@
 ---
 title: 一些关于 Markdown 的奇技淫巧
-img: "https://s1.ax1x.com/2022/11/30/zw4etP.png"
+img: "https://lz-oss-0.s3.ladydaily.com/1870963-3904c48d0860d6e1.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=xwdBeeWSclcJqB1v4HymMNP6%2F20221218%2F%2Fs3%2Faws4_request&X-Amz-Date=20221218T040947Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=700c299d7b24e5c2c96b85bbaca0b7a9c292165d116d25b3d5ccf82ab4213507"
 toc: false
 top: false
 mathjax: false
@@ -8,13 +8,11 @@ categories: 学习
 tags:
   - Github
 keywords: Github,MarkDown,markdown
-date: 2022-06-12 05:35:15
+date: 2022-12-18 12:15:15
 isOriginal: true
 ---
 
 自从几年前开始在 GitHub 玩耍，接触到 Markdown 之后，就深深的爱上了它，在各种文档编辑上，有条件用 Markdown 的尽量用，不能用的创造条件也要用——README、博客、接口文档等等全都是。
-
-[[toc]]
 
 这几年也发现越来越多的网站和程序提供了对 Markdown 的支持，从最初接触的 GitHub、Jekyll，到简书、CSDN 等等，由此也从别人做得好的文档中，学到了一些『奇技淫巧』，所以本文不是对 Markdown 基础语法的介绍，而是一些相对高级、能将 Markdown 玩出更多花样的小技巧。
 
@@ -114,13 +112,9 @@ N 与图片高度有关。
 &emsp;&emsp;春天来了，又到了万物复苏的季节。
 ```
 
-示例效果：
-
-&emsp;&emsp;春天来了，又到了万物复苏的季节。
-
 ## 展示数学公式
 
-如果是在 GitHub Pages，可以参考 http://wanguolin.github.io/mathmatics_rending/ 使用 MathJax 来优雅地展示数学公式（非图片）。
+如果是在 GitHub Pages 和 Hexo，可以参考 `http://wanguolin.github.io/mathmatics_rending/` 使用 MathJax 来优雅地展示数学公式（非图片）。
 
 如果是在 GitHub 项目的 README 等地方，目前我能找到的方案只能是贴图了，以下是一种比较方便的贴图方案：
 
@@ -151,19 +145,20 @@ N 与图片高度有关。
 
 有时候维护一份比较长的文档，希望能够自动根据文档中的标题生成目录（Table of Contents），并且当标题有变化时自动更新目录，能减轻工作量，也不易出错。
 
-如果你使用 Vim 编辑器，那可以使用我维护的插件 vim-markdown-toc 来帮你完美地解决此事：
+如果你使用 `Vim` 编辑器，那可以使用插件 `vim-markdown-toc` 来帮你完美地解决此事。
 
-插件地址：https://github.com/mzlogin/vim-markdown-toc
+[[toc]]
 
-如果你使用其它编辑器，一般也能找到对应的解决方案，比如 Atom 编辑器的 markdown-toc 插件，Sublime Text 的 MarkdownTOC 插件等。
+如果你使用其它编辑器，一般也能找到对应的解决方案，比如 Atom 编辑器的 `markdown-toc` 插件，Sublime Text 的 `MarkdownTOC` 插件等。
 
 ## 后话
 
-好了，这一波的奇技淫巧就此告一段落，希望大家在了解这些之后能有所收获，更好地排版，专注写作。
+好了，这一波的奇技淫巧就此告一段落，希望大家在了解这些之后能有所收获。
 
-如果你觉得本文对你有帮助，欢迎关注我的微信公众号 isprogrammer，获取更多有帮助的内容。
+如果你觉得本文对你有帮助，欢迎[关注我的频道](https://www.youtube.com/channel/UCOE6Ckq2Pip08Ia1Zg6dUGA)，获取更多有帮助的内容。
 
 ## 参考
 
 https://raw.githubusercontent.com/matiassingers/awesome-readme/master/readme.md
 https://www.zybuluo.com/songpfei/note/247346
+https://www.youtube.com/channel/UCOE6Ckq2Pip08Ia1Zg6dUGA
