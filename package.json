@@ -15,7 +15,6 @@
     "dns": "0.2.2",
     "hexo": "^6.3.0",
     "hexo-admonition": "1.1.2",
-    "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^3.0.0",
     "hexo-encrypt": "^0.1.1",
     "hexo-filter-github-emojis": "^3.0.5",
