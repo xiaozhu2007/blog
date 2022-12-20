@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-author: Pig2333 # 文章作者
+author: HackPig520 # 文章作者
 img: /source/images/1.jpg    # 文章特征图
 top: false # 推荐文章（文章是否置顶），如果 top 值为 true，则会作为首页推荐文章
 cover: false    # 表示该文章是否需要加入到首页轮播封面中
