@@ -76,28 +76,28 @@ $(function () {
             let imgPath = $(this).attr('src');
             $(this).wrap('<div class="img-item" data-src="' + imgPath + '" data-sub-html=".caption"></div>');
             // 图片添加阴影
-            $(this).addClass("img-shadow img-margin");
+            $(this).addClass('img-shadow img-margin');
             // 图片添加字幕
             let alt = $(this).attr('alt');
             let title = $(this).attr('title');
-            let captionText = "";
+            let captionText = '';
             // 如果alt为空，title来替
-            if (alt === undefined || alt === "") {
-                if (title !== undefined && title !== "") {
+            if (alt === undefined || alt === '') {
+                if (title !== undefined && title !== '') {
                     captionText = title;
                 }
             } else {
                 captionText = alt;
             }
             // 字幕不空，添加之
-            if (captionText !== "") {
+            if (captionText !== '') {
                 let captionDiv = document.createElement('div');
                 captionDiv.className = 'caption';
                 let captionEle = document.createElement('b');
                 captionEle.className = 'center-caption';
                 captionEle.innerText = captionText;
                 captionDiv.appendChild(captionEle);
-                this.insertAdjacentElement('afterend', captionDiv)
+                this.insertAdjacentElement('afterend', captionDiv);
             }
         });
         $('#articleContent, #myGallery').lightGallery({
@@ -107,7 +107,7 @@ $(function () {
         });
         // 懒加载防止插件冲突
         $(document).find('img[data-original]').each(function () {
-            $(this).parent().attr("href", $(this).attr("data-original"));
+            $(this).parent().attr('href', $(this).attr('data-original'));
         });
         // progress bar init
         const progressElement = window.document.querySelector('.progress-bar');
@@ -150,17 +150,17 @@ $(function () {
     }
 
 
-    $(".nav-menu>li").hover(function () {
+    $('.nav-menu>li').hover(function () {
         $(this).children('ul').stop(true, true).show();
         $(this).addClass('nav-show').siblings('li').removeClass('nav-show');
 
     }, function () {
         $(this).children('ul').stop(true, true).hide();
         $('.nav-item.nav-show').removeClass('nav-show');
-    })
+    });
 
     $('.m-nav-item>a').on('click', function () {
-        if ($(this).next('ul').css('display') == "none") {
+        if ($(this).next('ul').css('display') == 'none') {
             $('.m-nav-item').children('ul').slideUp(300);
             $(this).next('ul').slideDown(100);
             $(this).parent('li').addClass('m-nav-show').siblings('li').removeClass('m-nav-show');

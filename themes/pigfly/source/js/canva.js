@@ -51,10 +51,10 @@
             wWidth = $(window).width();
             wHeight = $(window).height(),
 
-                canvas.each(function(){
-                    this.width = wWidth;
-                    this.height = wHeight;
-                });
+            canvas.each(function(){
+                this.width = wWidth;
+                this.height = wHeight;
+            });
         };
 
         var drawCircle = function(x, y, radius, color, alpha){
@@ -134,7 +134,7 @@
                     if (x > wWidth + radius){
                         x = -radius;
                     } else if (x < -radius){
-                        x = wWidth + radius
+                        x = wWidth + radius;
                     } else {
                         x += sin*speed;
                     }

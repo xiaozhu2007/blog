@@ -3,7 +3,7 @@ if (localStorage.getItem('dark') === '1') {
     document.body.classList.add('dark');
 } else if (new Date().getHours() >= 23 || new Date().getHours() < 6) {
     document.body.classList.add('dark');
-    $('#nightMode').removeClass("fa-moon-o").addClass("fa-lightbulb");
+    $('#nightMode').removeClass('fa-moon-o').addClass('fa-lightbulb');
 } else if (matchMedia('(prefers-color-scheme: dark)').matches) {
     document.body.classList.add('dark');
 }
@@ -14,12 +14,12 @@ function switchNightMode() {
     if (body.classList.contains('dark')) {
         document.body.classList.remove('dark');
         localStorage.setItem('dark', '0');
-        $('#nightMode').removeClass("fa-lightbulb").addClass("fa-moon-o");
+        $('#nightMode').removeClass('fa-lightbulb').addClass('fa-moon-o');
         return;
     } else {
         document.body.classList.add('dark');
         localStorage.setItem('dark', '1');
-        $('#nightMode').removeClass("fa-moon-o").addClass("fa-lightbulb");
+        $('#nightMode').removeClass('fa-moon-o').addClass('fa-lightbulb');
         return;
     }
 
