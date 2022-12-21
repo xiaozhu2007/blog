@@ -46,11 +46,12 @@
 
 没错, 我们提供了一些基于 Netlify Functions 的 API 服务, 具体如下:
 
-| API Endpoint    | 参数                                 | 使用限制   | 返回 |
-| --------------- | ------------------------------------ | ---------- | ---- |
-| `/_/dns-lookup` | `hostname`: 目标地址, `type`: 见下方 | 30 次/h/IP | JSON |
-| `/_/emoji`      | 无                                   | 30 次/h/IP | JSON |
-| `/_/ping`       | `msg`: 指定返回信息                  | 30 次/h/IP | JSON |
+| API Endpoint                      | 参数                                 | 使用限制      | 返回 |
+| --------------------------------- | ------------------------------------ | ------------- | ---- |
+| `/_/dns-lookup`                   | `hostname`: 目标地址, `type`: 见下方 | 30 次/h/IP    | JSON |
+| `/_/emoji`                        | 无                                   | 30 次/h/IP    | JSON |
+| `/_/ping`                         | `msg`: 指定返回信息                  | 30 次/h/IP    | JSON |
+| `https://screenshot-s48m.rpt.dev` | `target`: 要截图的网站               | 共 1000 次/天 | Blob |
 
 当前支持的 Enderpoint 列表:
 
@@ -106,10 +107,51 @@ dns.CANCELLED: 取消 DNS 查询
 
 ### API Token 购买 & 使用
 
-在[爱发电][afdian]赞助我`5`元即可获得 API Token；食用方法: 添加参数`token`, 参数值为您的 Token 值
+在[爱发电][afdian]赞助我任何金额均可获得 API Token；食用方法: 添加参数`token`, 参数值为您的 Token 值
 
 举个例子: `/_/something?token=kgbnvPFYtH8RYxxRt3JPekmR5ChFhRL5`
 
+### 关于 Repeat.dev
+
+> Say hello to Webhooks as a Service.
+
+> Create a webhook, schedule a task, handle emails, generate pdf, and deploy in seconds.
+
+Repeat.dev 目前处于 `Beta` 版本期间, 免费版**无任何限制**, 官网地址: <https://repeat.dev/>. 后期出一篇博客详细的讲解一下
+
+#### Repeat.dev 的计费
+
+##### 免费版本
+每个项目拥有:
+- 300 invocations / day
+- 5 repeats
+- 1k storage objects
+- 50MB storage
+
+##### 免费版本(BETA)
+每个项目拥有:
+- **1k** invocations / day
+- **20 repeats**
+- 10k storage objects
+- 100MB storage
+- 1 team member
+
+##### 付费版本
+目前价格: $7/月, 十分的便宜了
+每个项目拥有: 
+- 50k invocations / month
+- Unlimited repeats
+- 100k storage objects
+- 1GB storage
+- 1 webhook custom domain
+- Unlimited team members
+
+每个脚本拥有: 
+- **5 events**
+- 50 variables
+- 50 NPM dependencies
+
+---
 [blog]: https://xiaozhu2007.netlify.app/
 [gh_blog]: https://github.com/xiaozhu2007/blog
 [afdian]: https://afdian.net/order/create?plan_id=5931b3de017b11eca91752540025c377&product_type=0
