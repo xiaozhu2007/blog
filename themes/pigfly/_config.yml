@@ -59,6 +59,9 @@ menu:
       - name: 申请二级域名
         url: https://yeeee.ml/
         icon: fas fa-image
+      - name: D2 在线体验
+        url: /d2-test
+        icon: fas fa-bookmark
       - name: 留言板
         url: /contact
         icon: fas fa-comments
