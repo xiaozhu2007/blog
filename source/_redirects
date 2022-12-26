@@ -3,6 +3,8 @@
 # Bitiful S4 / 缤纷云S4
 # Example: /__/2022/049c650cb10279a655750dc6cdea5b7c.jpg
 /__/*   https://lz-oss-0.s3.ladydaily.com/image/:splat  200
+# Clash订阅链接
+/clash-cdn/*
 ###############################################################################
 # No WordPress.
 /wp-admin/index.php  /robots       200

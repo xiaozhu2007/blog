@@ -1,7 +1,7 @@
 <div align="center">
   <h1>HackPig520's Blog</h1>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/78c67981-3f26-4c95-bdc8-c311ed58fd1e/deploy-status)](https://app.netlify.com/sites/xiaozhu2007/deploys)[![Made with ❤](https://flat.badgen.net/badge/made%20with/%e2%9d%a4/ff69b4)](blog)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/78c67981-3f26-4c95-bdc8-c311ed58fd1e/deploy-status)](https://app.netlify.com/sites/xiaozhu2007/deploys)[![Made with ❤](https://flat.badgen.net/badge/made%20with/%e2%9d%a4/ff69b4)](blog)[![](https://data.jsdelivr.com/v1/package/npm/lz-oss/badge)](https://www.jsdelivr.com/package/npm/lz-oss)
 
 </div>
 
