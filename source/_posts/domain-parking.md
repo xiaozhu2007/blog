@@ -1,6 +1,6 @@
 ---
 title: 什么是域名停靠？
-img: "https://s1.ax1x.com/2022/11/30/zw429K.png"
+img: "https://lz-oss-0.s3.ladydaily.com/blog-image/zw429K.png"
 toc: false
 top: false
 mathjax: false

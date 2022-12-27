@@ -1,6 +1,6 @@
 ---
 title: 永久免费 Evolution Host主机，最高免费8H16G VPS!
-img: "https://s1.ax1x.com/2022/12/07/zgFSzj.png"
+img: "https://lz-oss-0.s3.ladydaily.com/blog-image/zgFSzj.png"
 toc: false
 top: false
 mathjax: false

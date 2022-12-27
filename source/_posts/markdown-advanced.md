@@ -1,6 +1,6 @@
 ---
 title: 一些关于 Markdown 的奇技淫巧
-img: "https://lz-oss-0.s3.ladydaily.com/1870963-3904c48d0860d6e1.webp"
+img: "https://lz-oss-0.s3.ladydaily.com/blog-image/markdown.webp"
 toc: false
 top: false
 mathjax: false

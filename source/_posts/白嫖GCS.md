@@ -1,6 +1,6 @@
 ---
 title: 无需信用卡，白嫖谷歌云创建 RDP 远程桌面！
-img: "https://s1.ax1x.com/2022/11/30/zw4etP.png"
+img: "https://lz-oss-0.s3.ladydaily.com/blog-image/zw4etP.png"
 toc: false
 top: false
 mathjax: false
