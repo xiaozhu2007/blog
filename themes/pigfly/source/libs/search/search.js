@@ -59,7 +59,7 @@ var searchFunc = function (path, search_id, content_id) {
           // show search results
           if (isMatch) {
             str +=
-              "<li><a href='/" +
+              "<li><a href='" +
               data_url +
               "' class='search-result-title'>" +
               data_title +
