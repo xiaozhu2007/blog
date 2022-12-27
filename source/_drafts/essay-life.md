@@ -1,6 +1,6 @@
 ---
 title: essay-life
-img: '/medias/article/essay-life.jpg'
+img: "/medias/article/essay-life.jpg"
 toc: false
 top: false
 mathjax: false
@@ -10,7 +10,7 @@ tags:
   - 请相信生活
 essay: true
 keywords: Hexo
-summary: '请相信生活,相信自己'
+summary: "请相信生活,相信自己"
 abbrlink: 601
 date: 2021-03-15 23:35:45
 ---

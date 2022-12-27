@@ -1,37 +1,44 @@
-[{
-	"avatar": "https://image.3001.net/images/20210606/16229390604952.png",
-	"name": "国光",
-	"introduction": "宁静致远",
-	"url": "https://www.sqlsec.com/",
-	"title": "前去学习"
-}, {
-	"avatar": "https://npm.elemecdn.com/chenyfan-oss@3",
-	"name": "陈YF的博客",
-	"introduction": "一个在互联网角落挣扎的小小博客，很小很小",
-	"url": "https://blog.cyfan.top/",
-	"title": "前去学习"
-}, {
-	"avatar": "https://hesifan.top/medias/avatar.jpg",
-	"name": "凡尘纪",
-	"introduction": "念念不忘 必有回响",
-	"url": "https://hesifan.top",
-	"title": "访问主页"
-}, {
-	"avatar": "https://mx142.cn/medias/logo.png",
-	"name": "Mx",
-	"introduction": "一个分享知识和快乐的地方！",
-	"url": "https://mx142.cn",
-	"title": "访问主页"
-}, {
-	"avatar": "https://nekodeng.gitee.io/medias/avatar.jpg",
-	"name": "itsNekoDeng",
-	"introduction": "十万伏特皮卡丘，梦想是世界和平，想要发光发热",
-	"url": "https://nekodeng.gitee.io",
-	"title": "访问主页"
-}, {
-	"avatar": "https://image.3001.net/images/20210618/16239843068531.png",
-	"name": "空缺位",
-	"introduction": "原创文章优先 建站时长 1 年及其以上优先",
-	"url": "https://github.com/xiaozhu2007/blog",
-	"title": "立即申请"
-}]
+[
+  {
+    "avatar": "https://image.3001.net/images/20210606/16229390604952.png",
+    "name": "国光",
+    "introduction": "宁静致远",
+    "url": "https://www.sqlsec.com/",
+    "title": "前去学习"
+  },
+  {
+    "avatar": "https://npm.elemecdn.com/chenyfan-oss@3",
+    "name": "陈YF的博客",
+    "introduction": "一个在互联网角落挣扎的小小博客，很小很小",
+    "url": "https://blog.cyfan.top/",
+    "title": "前去学习"
+  },
+  {
+    "avatar": "https://hesifan.top/medias/avatar.jpg",
+    "name": "凡尘纪",
+    "introduction": "念念不忘 必有回响",
+    "url": "https://hesifan.top",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://mx142.cn/medias/logo.png",
+    "name": "Mx",
+    "introduction": "一个分享知识和快乐的地方！",
+    "url": "https://mx142.cn",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://nekodeng.gitee.io/medias/avatar.jpg",
+    "name": "itsNekoDeng",
+    "introduction": "十万伏特皮卡丘，梦想是世界和平，想要发光发热",
+    "url": "https://nekodeng.gitee.io",
+    "title": "访问主页"
+  },
+  {
+    "avatar": "https://image.3001.net/images/20210618/16239843068531.png",
+    "name": "空缺位",
+    "introduction": "原创文章优先 建站时长 1 年及其以上优先",
+    "url": "https://github.com/xiaozhu2007/blog",
+    "title": "立即申请"
+  }
+]

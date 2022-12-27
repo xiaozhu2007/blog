@@ -1,6 +1,6 @@
 ---
 title: 无需信用卡，白嫖谷歌云创建 RDP 远程桌面！
-img: 'https://s1.ax1x.com/2022/11/30/zw4etP.png'
+img: "https://s1.ax1x.com/2022/11/30/zw4etP.png"
 toc: false
 top: false
 mathjax: false
@@ -14,7 +14,9 @@ date: 2022-11-29 15:35:15
 ---
 
 ⏳ 您需要一个美国的节点以继续
+
 <!-- more -->
+
 ## Cloud Shell 介绍
 
 Cloud Shell 是一个可从浏览器访问的在线开发和运营环境。您可以利用其预加载了实用程序（如 `gcloud` 命令行工具、`kubectl` 等）的在线终端管理资源，还可以使用在线 Cloud Shell Editor 开发、构建、调试和部署云端应用。它有如下特点：

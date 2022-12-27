@@ -1,3 +1,4 @@
+---
 #---------------------------
 # Hexo Theme Pigfly
 # Author: xiaozhu2007
@@ -6,7 +7,6 @@
 # Guide: https://github.com/xiaozhu2007/hexo-theme-pigfly/wiki/
 # You can get more detailed help from the guide
 #---------------------------
-
 
 #---------------------------
 # 菜单 / 导航
@@ -93,7 +93,7 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title:  💪 人生格言
+  title: 💪 人生格言
   text: 我们都得经历一段努力闭嘴不抱怨的时光，才能熠熠生辉，才能去更酷的地方，成为更酷的人。
 
 # 加载动画
@@ -129,19 +129,19 @@ music:
   title: #非吸底模式有效
     enable: true
     show: 听听音乐
-  autoHide: true    # hide automaticaly
-  server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist    #require song, playlist, album, search, artist
-  id: 503838841     #require	song id / playlist id / album id / search keyword
-  fixed: true       # 开启吸底模式
-  autoplay: false   # 是否自动播放
-  theme: '#42b983'
-  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: true  # 列表默认折叠
-  hideLrc: true     # 隐藏歌词
+  autoHide: true # hide automaticaly
+  server: netease #require	music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist #require song, playlist, album, search, artist
+  id: 503838841 #require	song id / playlist id / album id / search keyword
+  fixed: true # 开启吸底模式
+  autoplay: false # 是否自动播放
+  theme: "#42b983"
+  loop: "all" # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: "random" # 音频循环顺序, 可选值: 'list', 'random'
+  preload: "auto" # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: true # 列表默认折叠
+  hideLrc: true # 隐藏歌词
 
 # Whether to display the videos.
 # 是否在首页显示视频.
@@ -154,9 +154,9 @@ video:
   thumbnails:
   height: # 如：400
   autoplay: false # 是否自动播放
-  theme: '#42b983'
+  theme: "#42b983"
   loop: false # 是否循环播放
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  preload: "auto" # 预加载，可选值: 'none', 'metadata', 'auto'
   volume: 0.7
 
 # Whether to display the title of the recommended posts
@@ -178,7 +178,7 @@ logTest: HackPig520
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
   enable: true
-  github:  https://github.com/xiaozhu2007
+  github: https://github.com/xiaozhu2007
   email: i@yeeee.ml
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -252,7 +252,6 @@ profile:
   career: 🎓 安全爱好者 # 职业
   introduction: 🔔 一个人是孤独的，但是他永远不会寂寞。 # 介绍
 
-
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
@@ -260,10 +259,10 @@ myProjects:
   enable: true
   data:
     hexo-theme-pigfly:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/xiaozhu2007/hexo-theme-pigfly
-        desc: islu主题修改优化
+      icon: fas fa-file-alt
+      iconBackground: "linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)"
+      url: https://github.com/xiaozhu2007/hexo-theme-pigfly
+      desc: islu主题修改优化
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -272,22 +271,22 @@ mySkills:
   enable: true
   data:
     C:
-      background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
+      background: "linear-gradient(to right, #FF0066 0%, #FF00CC 100%)"
       percent: 15%
     JavaScript:
-      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
+      background: "linear-gradient(to right, #9900FF 0%, #CC66FF 100%)"
       percent: 50%
     HTML5:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+      background: "linear-gradient(to right, #2196F3 0%, #42A5F5 100%)"
       percent: 50%
     CSS:
-      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
+      background: "linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)"
       percent: 30%
     SQL:
-      background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
+      background: "linear-gradient(to right, #4CAF50 0%, #81C784 100%)"
       percent: 12%
     PHP:
-      background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
+      background: "linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)"
       percent: 65%
 
 # config gallery of my photos in about page.
@@ -303,7 +302,6 @@ myGallery:
     - /medias/featureimages/4.jpg
     - /medias/featureimages/5.jpg
 
-
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
 postCalendar: true
@@ -318,9 +316,9 @@ valine:
   notify: true
   verify: true
   visitor: true
-  avatar: 'monsterid' # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
+  avatar: "monsterid" # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide
   pageSize: 10
-  placeholder: '留下你的足迹..' # Comment Box placeholder
+  placeholder: "留下你的足迹.." # Comment Box placeholder
   count: true
   enableQQ: true
   recordIP: true
@@ -332,8 +330,8 @@ valine:
     - mail
     - link
   master:
-    - d6aa745c99f223819bf39b01d1397be9  # md5加密后的博主邮箱
-  metaPlaceholder:  # 输入框的背景文字
+    - d6aa745c99f223819bf39b01d1397be9 # md5加密后的博主邮箱
+  metaPlaceholder: # 输入框的背景文字
     nick: 昵称/QQ号(必填)
     mail: 邮箱(必填)
     link: 网址(https://)
@@ -441,30 +439,30 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+  - /medias/featureimages/0.jpg
+  - /medias/featureimages/1.jpg
+  - /medias/featureimages/2.jpg
+  - /medias/featureimages/3.jpg
+  - /medias/featureimages/4.jpg
+  - /medias/featureimages/5.jpg
+  - /medias/featureimages/6.jpg
+  - /medias/featureimages/7.jpg
+  - /medias/featureimages/8.jpg
+  - /medias/featureimages/9.jpg
+  - /medias/featureimages/10.jpg
+  - /medias/featureimages/11.jpg
+  - /medias/featureimages/12.jpg
+  - /medias/featureimages/13.jpg
+  - /medias/featureimages/14.jpg
+  - /medias/featureimages/15.jpg
+  - /medias/featureimages/16.jpg
+  - /medias/featureimages/17.jpg
+  - /medias/featureimages/18.jpg
+  - /medias/featureimages/19.jpg
+  - /medias/featureimages/20.jpg
+  - /medias/featureimages/21.jpg
+  - /medias/featureimages/22.jpg
+  - /medias/featureimages/23.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -504,7 +502,7 @@ ribbon:
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
-  clickChange: true  # 设置是否每次点击都更换彩带.
+  clickChange: true # 设置是否每次点击都更换彩带.
 
 # 背景动态彩带.
 ribbon_dynamic:
@@ -519,10 +517,10 @@ sharejs:
 # addthis文章分享模块.
 addthis:
   enable: false
-  pubid:  # 前往https://www.addthis.com/
+  pubid: # 前往https://www.addthis.com/
 
 # 打字效果副标题.
-# 如果有符号 ' ，请在 ' 前面加上 \ 
+# 如果有符号 ' ，请在 ' 前面加上 \
 # eg. \'
 subtitle:
   enable: true
@@ -541,7 +539,6 @@ navMenu:
   mleft: true # 二级侧栏子菜单是否对齐左边
   leftMargin: 0px #
   bgColor: " " # 二级侧栏子菜单背景颜色,留空即为全局背景色
-
 
 # banner 是否每日切换.
 # 若为 false, 则 banner 默认为 /medias/banner/0.jpg
@@ -570,14 +567,14 @@ lean:
 vercel-logo:
   enable: false
 
-# CDN访问加速 
+# CDN访问加速
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
 # 如果必须要使用国内的Coding或者Gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
 # URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
 # 如果想关闭此功能，将 URL地址 注释或删除即可！
 #////////////////////////
 # 自己网站部署
-# 1.复制./source/的文件去你的服务器 
+# 1.复制./source/的文件去你的服务器
 # 2.配置你的服务器地址于下方
 #////////////////////////
 # 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉

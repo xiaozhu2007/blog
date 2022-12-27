@@ -122,14 +122,18 @@ Repeat.dev 目前处于 `Beta` 版本期间, 免费版**无任何限制**, 官�
 #### Repeat.dev 的计费
 
 ##### 免费版本
+
 每个项目拥有:
+
 - 300 invocations / day
 - 5 repeats
 - 1k storage objects
 - 50MB storage
 
 ##### 免费版本(BETA)
+
 每个项目拥有:
+
 - **1k** invocations / day
 - **20 repeats**
 - 10k storage objects
@@ -137,8 +141,10 @@ Repeat.dev 目前处于 `Beta` 版本期间, 免费版**无任何限制**, 官�
 - 1 team member
 
 ##### 付费版本
+
 目前价格: $7/月, 十分的便宜了
-每个项目拥有: 
+每个项目拥有:
+
 - 50k invocations / month
 - Unlimited repeats
 - 100k storage objects
@@ -146,12 +152,14 @@ Repeat.dev 目前处于 `Beta` 版本期间, 免费版**无任何限制**, 官�
 - 1 webhook custom domain
 - Unlimited team members
 
-每个脚本拥有: 
+每个脚本拥有:
+
 - **5 events**
 - 50 variables
 - 50 NPM dependencies
 
 ---
+
 [blog]: https://xiaozhu2007.netlify.app/
 [gh_blog]: https://github.com/xiaozhu2007/blog
 [afdian]: https://afdian.net/order/create?plan_id=5931b3de017b11eca91752540025c377&product_type=0
