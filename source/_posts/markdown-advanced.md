@@ -1,6 +1,6 @@
 ---
 title: 一些关于 Markdown 的奇技淫巧
-img: "https://lz-oss-0.s3.ladydaily.com/1870963-3904c48d0860d6e1.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=xwdBeeWSclcJqB1v4HymMNP6%2F20221218%2F%2Fs3%2Faws4_request&X-Amz-Date=20221218T040947Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=700c299d7b24e5c2c96b85bbaca0b7a9c292165d116d25b3d5ccf82ab4213507"
+img: "https://lz-oss-0.s3.ladydaily.com/1870963-3904c48d0860d6e1.webp"
 toc: false
 top: false
 mathjax: false
