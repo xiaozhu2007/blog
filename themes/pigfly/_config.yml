@@ -372,17 +372,17 @@ busuanziStatistics:
 # Add google analytics configuration
 # 添加 Google Analytics 配置
 googleAnalytics:
-  enable: false
-  id:
+  enable: true
+  id: G-3QX392CS7E
 
 daoVoice:
-  enable: true
+  enable: false
   id: b40915e3
 
 # Add baidu analytics configuration
 # 添加 baidu Analytics 配置
 baiduAnalytics:
-  enable: true
+  enable: false
   id: 287e8d26ceeacf422d27782c47406ccd
 
 # 百度搜索资源平台提交链接
